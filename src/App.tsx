@@ -7,6 +7,8 @@ import { Activities } from './components/Activities';
 import { Testimonial } from './components/Testimonial';
 import { Footer } from './components/Footer';
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
+import FloatingButtons from './components/FloatingButtons';
+import 'antd/dist/reset.css';
 import PackageList from './components/PackageList';
 import { HeroContent } from './components/HeroContent';
 import AboutUs from './components/AboutUs';
@@ -17,12 +19,12 @@ import PackageDetails from './components/PackageDetails';
 function App() {
   return (
     <Router>
-      <div className="min-h-screen bg-white">
+      <div id="main-container" className="min-h-screen bg-white">
         <Navigation />
         <Routes>
           <Route path="/" element={
             <>
-              <main>
+              <main className="pt-16">
                 <HeroContent />
                 <Hero />
                 <Services />
@@ -40,6 +42,7 @@ function App() {
           <Route path="/package/:id" element={<PackageDetails />} />
         </Routes>
         <Footer />
+        <FloatingButtons />
       </div>
     </Router>
   );

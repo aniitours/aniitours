@@ -1,3 +1,44 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+
+
+@layer utilities {
+  .animate-slide-up {
+    animation: slide-up 0.3s ease-out forwards;
+  }
+
+  .animate-glow-pulse {
+    animation: glow 2s infinite ease-in-out, pulse-expand 2s infinite ease-in-out;
+  }
+
+  @keyframes slide-up {
+    from {
+      transform: translateY(100%);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes glow {
+    0%, 100% {
+      box-shadow: 0 0 10px rgba(24, 20, 51, 0.4), 0 0 20px rgba(24, 20, 51, 0.3);
+    }
+    50% {
+      box-shadow: 0 0 20px rgba(24, 20, 51, 0.7), 0 0 30px rgba(24, 20, 51, 0.5);
+    }
+  }
+
+  @keyframes pulse-expand {
+    0%, 100% {
+      transform: scale(1);
+    }
+    50% {
+      transform: scale(1.05);
+    }
+  }
+}

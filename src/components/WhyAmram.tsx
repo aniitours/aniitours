@@ -19,7 +19,7 @@ const services = [
   {
     icon: binocular,
     color: 'bg-[#f5884933]',
-    title: 'Night Seeing',
+    title: 'Sight Seeing',
     description: 'Discover the Andaman Islands with our guided sightseeing tours!'
   },
   {

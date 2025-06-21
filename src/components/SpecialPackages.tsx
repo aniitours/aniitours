@@ -4,11 +4,9 @@ import otherCouple from '../static/special-packages/couple.jpg';
 import family from '../static/special-packages/family.jpg';
 import ArrowOutward from '@mui/icons-material/ArrowOutward';
 import "@fontsource/caudex";
-import { useNavigate } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 export function SpecialPackages() {
-
-  const navigate = useNavigate();
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
@@ -34,22 +32,22 @@ export function SpecialPackages() {
               </div>
             </div>
             <div className='w-full my-2 flex flex-row items-center'>
-              <div className="w-32 h-32 rounded-full overflow-hidden">
+              <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
                 <img src={otherCouple} alt="Image" className="w-full h-full object-cover" />
               </div>
               <h2 className='text-2xl font-semibold font-caudex m-12 font-[#181E4B]'>Honeymoon Packages</h2>
             </div>
             <div className='w-full my-8 flex flex-row items-center'>
-              <div className="w-32 h-32 rounded-full overflow-hidden">
+              <div className="w-32 h-32 rounded-full overflow-hidden flex-shrink-0">
                 <img src={family} alt="Image" className="w-full h-full object-cover" />
               </div>
               <h2 className='text-2xl font-semibold font-caudex m-12 font-[#181E4B]'>Family Packages</h2>
             </div>
-            <div className='w-full flex items-center'>
-              <button className='bg-[#1E1D4C] text-white flex flex-row justify-center items-center rounded-xl px-6 py-2' onClick={() => navigate(`/tour-packages`)}>
-                <p>Customise Tour Packages</p>
-                <ArrowOutward className="my-2 p-1 text-white"/>
-              </button>
+            <div className="text-center mt-8 mr-4">
+              <Link to="/tour-packages#contact-form" className="block w-full bg-[#181433] text-white px-12 py-3 rounded-lg hover:bg-blue-700 transition font-poppins flex items-center justify-center">
+                Customize tour packages
+                <ArrowOutward className="ml-2"/>
+              </Link>
             </div>
           </div>
         </div>
