@@ -13,7 +13,7 @@ export function Packages() {
         <p className="text-xl font-caudex underline decoration-solid text-[#181E4B]">Packages</p>
         <h2 className="font-caudex text-2xl font-bold text-[#181E4B]">Tour packages you will Love!</h2>
         </div>
-        <a href="/tour-packages" className="text-blue-600 hover:underline hidden md:block">View all Packages →</a>
+        <Link to="/tour-packages" className="text-blue-600 hover:underline hidden md:block">View all Packages →</Link>
       </div>
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -55,10 +55,10 @@ export function Packages() {
         ))}
       </div>
       <div className="text-center mt-8 md:hidden">
-        <a href="/tour-packages" className="block w-full bg-[#181433] text-white px-12 py-3 rounded-lg hover:bg-blue-700 transition font-poppins flex items-center justify-center">
+        <Link to="/tour-packages" className="block w-full bg-[#181433] text-white px-12 py-3 rounded-lg hover:bg-blue-700 transition font-poppins flex items-center justify-center">
           View all Packages
           <ArrowOutward className="ml-2"/>
-        </a>
+        </Link>
       </div>
     </section>
   );

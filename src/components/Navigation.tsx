@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import websiteLogo from '../static/nav/amram-logo-75x.png';
 import "@fontsource/marck-script";
 import "@fontsource/poppins";
@@ -44,12 +44,12 @@ export function Navigation() {
           
           {/* Desktop Menu */}
           <div className="hidden md:flex items-center space-x-8">
-            <a href="/" className="text-gray-700 hover:text-blue-600 font-poppins">Home</a>
-            <a href="/about-us" className="text-gray-700 hover:text-blue-600 font-poppins">About Us</a>
-            <a href="/tour-packages" className="text-gray-700 hover:text-blue-600 font-poppins">Tour Packages</a>
-            <button className="bg-[#181433] text-white px-12 py-2 rounded-lg hover:bg-blue-700 transition font-poppins">
+            <NavLink to="/" className={({ isActive }) => isActive ? "text-blue-600 font-poppins" : "text-gray-700 hover:text-blue-600 font-poppins"}>Home</NavLink>
+            <NavLink to="/about-us" className={({ isActive }) => isActive ? "text-blue-600 font-poppins" : "text-gray-700 hover:text-blue-600 font-poppins"}>About Us</NavLink>
+            <NavLink to="/tour-packages" className={({ isActive }) => isActive ? "text-blue-600 font-poppins" : "text-gray-700 hover:text-blue-600 font-poppins"}>Tour Packages</NavLink>
+            <Link to="/tour-packages#contact-form" className="bg-[#181433] text-white px-12 py-2 rounded-lg hover:bg-blue-700 transition font-poppins">
               Query
-            </button>
+            </Link>
           </div>
 
           {/* Mobile Menu Button */}
@@ -71,12 +71,12 @@ export function Navigation() {
       {isMenuOpen && (
         <div className="md:hidden bg-white border-t">
           <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 flex flex-col items-center">
-            <a href="/" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins">Home</a>
-            <a href="/about-us" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins">About Us</a>
-            <a href="/tour-packages" className="text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins">Tour Packages</a>
-            <button className="bg-[#181433] text-white w-full mt-2 px-12 py-2 rounded-lg hover:bg-blue-700 transition font-poppins">
+            <NavLink to="/" className={({ isActive }) => isActive ? "text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins" : "text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins"}>Home</NavLink>
+            <NavLink to="/about-us" className={({ isActive }) => isActive ? "text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins" : "text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins"}>About Us</NavLink>
+            <NavLink to="/tour-packages" className={({ isActive }) => isActive ? "text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins" : "text-gray-700 hover:text-blue-600 block px-3 py-2 rounded-md text-base font-medium font-poppins"}>Tour Packages</NavLink>
+            <Link to="/tour-packages#contact-form" className="bg-[#181433] text-white hover:bg-blue-700 mt-2 px-12 py-2 rounded-lg transition font-poppins">
               Query
-            </button>
+            </Link>
           </div>
         </div>
       )}

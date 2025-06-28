@@ -9,7 +9,7 @@ import shell from '../static/contact/shell.png';
 
 import { HeroContent } from './HeroContent';
 import { useNavigate, useLocation } from 'react-router-dom';
-import { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect, useRef } from 'react';
 import { packages } from '../data/packages';
 
 const durations = [
@@ -163,7 +163,7 @@ const PackageList = () => {
           </div>
           
           {/* Packages List */}
-          <div ref={packagesSectionRef} className="w-full md:w-3/4">
+          <div id="packages-section" ref={packagesSectionRef} className="w-full md:w-3/4">
             <h2 className="text-xl font-semibold mb-6">Packages</h2>
             <div className="space-y-6">
               {filteredPackages.length > 0 ? (
@@ -224,7 +224,9 @@ const PackageList = () => {
                   className="w-64 opacity-50 mt-12 mx-auto"
                 />
               </div>
-              <ContactForm />
+              <div id="contact-form">
+                <ContactForm />
+              </div>
             </div>
           </div>
         </div>

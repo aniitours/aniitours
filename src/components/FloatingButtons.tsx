@@ -1,10 +1,14 @@
 import React, { useState, useEffect, useRef } from 'react';
-import { Phone, MessageSquare } from 'lucide-react';
+import { Phone } from 'lucide-react';
+import { FaWhatsapp } from 'react-icons/fa';
+import { useLocation } from 'react-router-dom';
 
 const FloatingButtons = () => {
   const [isMobile, setIsMobile] = useState(false);
   const [isVisible, setIsVisible] = useState(true);
+  const [isFilterContainerVisible, setIsFilterContainerVisible] = useState(false);
   const scrollTimeout = useRef<number | null>(null);
+  const location = useLocation();
 
   useEffect(() => {
     const checkIsMobile = () => {
@@ -41,11 +45,36 @@ const FloatingButtons = () => {
     };
   }, [isMobile]);
 
+  useEffect(() => {
+    if (location.pathname !== '/tour-packages' || !isMobile) {
+      setIsFilterContainerVisible(false);
+      return;
+    }
+
+    const packagesSection = document.getElementById('packages-section');
+    if (!packagesSection) return;
+
+    const observer = new IntersectionObserver(
+      ([entry]) => {
+        setIsFilterContainerVisible(entry.isIntersecting);
+      },
+      { threshold: 0.1 }
+    );
+
+    observer.observe(packagesSection);
+
+    return () => {
+      observer.unobserve(packagesSection);
+    };
+  }, [location.pathname, isMobile]);
+
   const phoneNumber = '9745642272';
   const whatsappNumber = '9745642272';
 
   const phoneHref = isMobile ? `tel:${phoneNumber}` : '#contact-form';
   const whatsappHref = `https://wa.me/${whatsappNumber}`;
+
+  const shouldBeVisible = isVisible && !isFilterContainerVisible;
 
   const handlePhoneClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!isMobile) {
@@ -57,7 +86,7 @@ const FloatingButtons = () => {
   return (
     <div
       className={`fixed bottom-8 right-8 flex flex-col gap-4 z-50 transition-opacity duration-500 ${
-        isVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
+        shouldBeVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
       }`}
     >
       <a
@@ -75,7 +104,7 @@ const FloatingButtons = () => {
         className="bg-green-500 text-white p-4 rounded-2xl shadow-lg hover:bg-green-600 transition-transform hover:scale-110"
         aria-label="Contact us on WhatsApp"
       >
-        <MessageSquare size={24} />
+        <FaWhatsapp size={24} />
       </a>
     </div>
   );

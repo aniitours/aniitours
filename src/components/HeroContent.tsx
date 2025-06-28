@@ -1,3 +1,4 @@
+import React from 'react';
 import "@fontsource/caudex";
 import "@fontsource/poppins";
 

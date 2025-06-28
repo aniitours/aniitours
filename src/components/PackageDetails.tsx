@@ -1,5 +1,6 @@
+import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
-import { Calendar, ArrowLeft } from 'lucide-react';
+import { ArrowLeft } from 'lucide-react';
 import { AccessTime, CrisisAlert, Hiking } from '@mui/icons-material';
 
 const itineraryData = {
@@ -99,9 +100,9 @@ const PackageDetails = () => {
           <p className="text-gray-700">{packageData.description}</p>
         </div>
         
-        <div className="space-y-8">
+        <div className="space-y-8 ml-4">
           {packageData.days.map((day, index) => (
-            <div key={index} className="relative pl-8 border-l-4 border-blue-200 border-dashed mb-8">
+            <div key={index} className="relative pl-8 border-l-2 border-blue-200 border-dashed mb-8">
               <div className="absolute -left-4 bg-white">
                 <div className="w-6 h-6 rounded bg-[#D5EBFF] flex items-center justify-center text-[#1E1D4C] text-sm font-bold p-4">
                   {String(day.day).padStart(2, '0')}
