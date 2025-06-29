@@ -1,10 +1,10 @@
-import couple from '../static/special-packages/couple.png';
-import shell from '../static/special-packages/shell.png';
-import otherCouple from '../static/special-packages/couple.jpg';
-import family from '../static/special-packages/family.jpg';
-import ArrowOutward from '@mui/icons-material/ArrowOutward';
+const couple = '/static/special-packages/couple.png';
+const shell = '/static/special-packages/shell.png';
+const otherCouple = '/static/special-packages/couple.jpg';
+const family = '/static/special-packages/family.jpg';
 import "@fontsource/caudex";
 import { Link } from 'react-router-dom';
+import { TrendingUp } from '@mui/icons-material';
 
 export function SpecialPackages() {
 
@@ -44,9 +44,9 @@ export function SpecialPackages() {
               <h2 className='text-2xl font-semibold font-caudex m-12 font-[#181E4B]'>Family Packages</h2>
             </div>
             <div className="text-center mt-8 mr-4">
-              <Link to="/tour-packages#contact-form" className="block w-full bg-[#181433] text-white px-12 py-3 rounded-lg hover:bg-blue-700 transition font-poppins flex items-center justify-center">
-                Customize tour packages
-                <ArrowOutward className="ml-2"/>
+              <Link to="/tour-packages#contact-form" className="w-full flex items-center justify-center bg-[#1E1D4C] text-white font-semibold py-3 px-6 rounded-lg hover:bg-opacity-90 transition">
+                Customise Tour Packages
+                <TrendingUp fontSize="small" className="ml-2" />
               </Link>
             </div>
           </div>

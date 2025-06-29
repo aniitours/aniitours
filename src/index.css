@@ -1,12 +1,48 @@
+@import url('https://fonts.googleapis.com/css2?family=Caudex:ital,wght@0,400;0,700;1,400;1,700&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
+@layer utilities {
+  .custom-dashed-border {
+    border-left-width: 1.5px;
+    border-image-source: repeating-linear-gradient(
+      to bottom,
+      #3A75F1,
+      #3A75F1 10px, /* dash length */
+      transparent 10px,
+      transparent 20px /* dash + gap length */
+    );
+    border-image-slice: 1;
+  }
+}
+
 body, #root, #main-container {
   overflow-x: hidden;
+  background-color: #FDFDFD;
 }
 
 
+.activity-carousel .clipping-container {
+  /* This is a classic CSS hack to fix rendering glitches on transformed elements */
+  transform: translateZ(0);
+}
+
+.activity-carousel .scale-container {
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
+
+@media (max-width: 600px) {
+  .activity-carousel .slick-slide .scale-container {
+    transform: scale(0.9);
+  }
+
+  .activity-carousel .slick-center .scale-container {
+    transform: scale(1.1);
+  }
+}
 
 @layer utilities {
   .animate-slide-up {

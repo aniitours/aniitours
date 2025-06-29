@@ -1,13 +1,12 @@
-import React from 'react';
-import { Target, Sparkles, Shield } from 'lucide-react';
-import coupleStroll from '../static/about-us/couples-stroll.png';
-import aboutUs1 from '../static/about-us/about-us-1.png';
-import aboutUs2 from '../static/about-us/about-us-2.png';
-import aboutUs3 from '../static/about-us/about-us-3.png';
-import service from '../static/about-us/service.png';
-import mission from '../static/about-us/mission.png';
-import vision from '../static/about-us/vision.png';
-import couple from '../static/about-us/couple.png';
+
+const coupleStroll = '/static/about-us/couples-stroll.png';
+const aboutUs1 = '/static/about-us/about-us-1.png';
+const aboutUs2 = '/static/about-us/about-us-2.png';
+const aboutUs3 = '/static/about-us/about-us-3.png';
+const service = '/static/about-us/service.png';
+const mission = '/static/about-us/mission.png';
+const vision = '/static/about-us/vision.png';
+const couple = '/static/about-us/couple.png';
 import { WhyAmram } from './WhyAmram';
 
 

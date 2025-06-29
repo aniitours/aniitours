@@ -1,9 +1,9 @@
 import "@fontsource/caudex";
 import "@fontsource/poppins";
-import trees from '../static/icons/trees-icon.svg';
-import binocular from '../static/icons/binocular-icon.svg';
-import swim from '../static/icons/swim-icon.svg';
-import sleep from '../static/icons/sleep-icon.svg';
+const trees = '/static/icons/trees-icon.svg';
+const binocular = '/static/icons/binocular-icon.svg';
+const swim = '/static/icons/swim-icon.svg';
+const sleep = '/static/icons/sleep-icon.svg';
 
 const services = [
   {
@@ -39,7 +39,7 @@ export function Services() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
         {services.map((service, index) => (
-          <div key={index} className="flex flex-col items-center justify-center text-center p-6 rounded-xl bg-white transition">
+          <div key={index} className="flex flex-col items-center justify-center text-center p-6 rounded-xl bg-[#FDFDFD] transition">
             <div className="flex items-center justify-center mb-4">
               <span className={`flex items-center px-4 ${service.color} rounded-tl-2xl rounded-br-2xl`}>
               <img src={service.icon} className="w-12 h-12 mx-auto mb-4 text-blue-600 pt-4" />

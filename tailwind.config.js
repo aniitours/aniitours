@@ -5,8 +5,8 @@ export default {
     extend: {
       fontFamily: {
         marck: ['Marck Script', 'cursive'],
-        caudex: ['Caudex'],
-        poppins: ['Poppins'],
+        caudex: ['Caudex', 'serif'],
+        poppins: ['Poppins', 'sans-serif'],
       },
     },
   },

@@ -1,23 +1,31 @@
 import { useState, useEffect } from 'react';
-import testimonialBg from '../static/testimonial/testimonial-bg.png';
-import passport from '../static/testimonial/passport.png';
-import lady from '../static/testimonial/lady.jpg';
+const testimonialBg = '/static/testimonial/testimonial-bg.png';
+const passport = '/static/testimonial/passport.png';
+const drMani = '/static/testimonial/dr-mani.jpg';
+const drSunitha = '/static/testimonial/dr-sunitha.jpg';
+const gopal = '/static/testimonial/gopal.jpg';
+const shobana = '/static/testimonial/shobana.jpg';
 
 const testimonials = [
   {
-    text: "Enjoyed the monsoon holidays especially Radhanagar Beach and scubadiving.",
-    author: "Suresh Ravi",
-    image: lady,
+    text: "Nice trip in December season in last moment booking. Good resort. Did scuba diving, parasailing and seawalk.",
+    author: "Dr. Ravi",
+    image: drMani,
   },
   {
-    text: "The trip was amazing! Everything was well-organized and the views were breathtaking.",
-    author: "Priya Sharma",
-    image: lady, 
+    text: "Discovered Andaman holidays with family. Beautifully done even with Havelock power cuts.",
+    author: "Shobana and family",
+    image: shobana,
   },
   {
-    text: "A truly unforgettable experience. The guides were knowledgeable and friendly.",
-    author: "Amit Patel",
-    image: lady, 
+    text: "We two families and children covered Havelock Neil and Baratang. Havelock food costly. Otherwise good time.",
+    author: "Gopal",
+    image: gopal,
+  },
+  {
+    text: "Had a professional trip to Andaman. Family and children were happy covering all water activities.",
+    author: "Dr. Suneetha and Family",
+    image: drSunitha,
   },
 ];
 

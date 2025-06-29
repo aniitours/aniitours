@@ -1,6 +1,7 @@
 import { Navigation } from './components/Navigation';
 import { Hero } from './components/Hero';
 import { Services } from './components/Services';
+import { Destinations } from './components/Destinations';
 import { Packages } from './components/Packages';
 import { SpecialPackages } from './components/SpecialPackages';
 import { Activities } from './components/Activities';
@@ -16,6 +17,8 @@ import AboutUs from './components/AboutUs';
 import { WhyAmram } from './components/WhyAmram';
 import { KeepPlanning } from './components/KeepPlanning';
 import PackageDetails from './components/PackageDetails';
+import { AndamanTours } from './components/AndamanTours';
+
 
 function App() {
   return (
@@ -30,6 +33,7 @@ function App() {
                 <HeroContent />
                 <Hero />
                 <Services />
+                <Destinations />
                 <Packages />
                 <SpecialPackages />
                 <Activities />
@@ -39,7 +43,8 @@ function App() {
               </main>
             </>
           } />
-          <Route path="/tour-packages" element={<PackageList />}/>
+          <Route path="/tour-packages" element={<PackageList />} />
+          <Route path="/andaman-tours" element={<AndamanTours />} />
           <Route path='/about-us' element={<AboutUs />}/>
           <Route path="/package/:id" element={<PackageDetails />} />
         </Routes>

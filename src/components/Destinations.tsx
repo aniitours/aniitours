@@ -1,41 +1,50 @@
-import React from 'react';
+import { TrendingUp } from '@mui/icons-material';
+import { Link } from 'react-router-dom';
+import "@fontsource/poppins";
+const destination1 = '/static/destinations/Portblair.png';
+const destination2 = '/static/destinations/HavelockIsland.png';
+const destination3 = '/static/destinations/Neil.png';
 
 const destinations = [
-  {
-    name: "Port Blair",
-    image: "https://images.unsplash.com/photo-1507525428034-b723cf961d3e"
-  },
-  {
-    name: "Havelock Island",
-    image: "https://images.unsplash.com/photo-1510414842594-a61c69b5ae57"
-  },
-  {
-    name: "Neil Island",
-    image: "https://images.unsplash.com/photo-1544551763-46a013bb70d5"
-  }
+  { name: "Port Blair", image: destination1 },
+  { name: "Havelock Island", image: destination2 },
+  { name: "Neil Island", image: destination3 }
 ];
 
 export function Destinations() {
   return (
-    <section className="my-16 py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto text-center">
-      <h3 className="underline decoration-solid font-caudex">Destination</h3>
-      <h2 className="text-2xl font-bold text-center font-caudex">Know more about your destinations in Andaman</h2>
-      
-      <div className="mt-16 grid grid-cols-1 md:grid-cols-3 gap-6">
-        {destinations.map((destination, index) => (
-          <div key={index} className="relative rounded-2xl overflow-hidden group">
-            <img 
-              src={destination.image}
-              alt={destination.name}
-              className="w-full h-64 object-cover transition group-hover:scale-105"
-            />
-            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent">
-              <h3 className="absolute bottom-4 left-4 text-white text-xl font-semibold">
-                {destination.name}
-              </h3>
+    <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
+          <div className="flex flex-col lg:flex-row items-center lg:items-start gap-12">
+              <div className="lg:w-1/3 text-center lg:text-left flex flex-col h-auto lg:h-[300px]">
+          <div>
+            <p className="text-lg font-caudex text-gray-500">Destination</p>
+            <h2 className="text-3xl font-bold font-caudex text-[#181E4B] mt-2">Explore Top Islands of Andaman!</h2>
+          </div>
+            <Link to="/andaman-tours" className="mt-8 lg:mt-auto bg-[#1E1D4C] text-white font-semibold py-3 px-6 rounded-lg hover:bg-opacity-90 transition items-center justify-center lg:justify-start mx-auto lg:mx-0 flex w-fit">
+            Andaman tours
+            <TrendingUp fontSize="small" className="ml-2" />
+          </Link>
+        </div>
+                        <div className="lg:w-2/3 flex flex-col sm:flex-row gap-4 w-full lg:h-[300px]">
+                    <div className="relative w-full sm:w-1/3 h-[250px] sm:h-full rounded-2xl overflow-hidden group">
+            <img src={destinations[0].image} alt={destinations[0].name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+              <h3 className="text-white font-poppins font-normal leading-7">{destinations[0].name}</h3>
             </div>
           </div>
-        ))}
+                    <div className="relative w-full sm:w-1/3 h-[250px] sm:h-full rounded-2xl overflow-hidden group">
+            <img src={destinations[1].image} alt={destinations[1].name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+              <h3 className="text-white font-poppins font-normal leading-7">{destinations[1].name}</h3>
+            </div>
+          </div>
+                    <div className="relative w-full sm:w-1/3 h-[250px] sm:h-full rounded-2xl overflow-hidden group">
+            <img src={destinations[2].image} alt={destinations[2].name} className="w-full h-full object-cover transition-transform duration-300 group-hover:scale-110" />
+            <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent flex items-end p-4">
+              <h3 className="text-white font-poppins font-normal leading-7">{destinations[2].name}</h3>
+            </div>
+          </div>
+        </div>
       </div>
     </section>
   );

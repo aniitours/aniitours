@@ -1,7 +1,7 @@
-import React from 'react';
-import { Shell, Facebook, Twitter, Instagram } from 'lucide-react';
-import footerHill from '../static/footer/footer-hill.png';
-import websiteLogo from '../static/nav/amram-logo-75x.png';
+import { Facebook, Twitter, Instagram } from 'lucide-react';
+
+const footerHill = '/static/footer/footer-hill.png';
+const websiteLogo = '/static/nav/amram-logo-75x.png';
 
 export function Footer() {
   return (
@@ -37,8 +37,9 @@ export function Footer() {
             <h3 className="text-lg font-semibold mb-4">Popular Tour Packages</h3>
             <ul className="space-y-2">
               <li><a href="#" className="text-gray-400 hover:text-white">3 Night 4 Days</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">4 Night 5 Days</a></li>
               <li><a href="#" className="text-gray-400 hover:text-white">5 Night 6 Days</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">7 Night 8 Days</a></li>
+              <li><a href="#" className="text-gray-400 hover:text-white">6 Night 7 Days</a></li>
             </ul>
           </div>
           

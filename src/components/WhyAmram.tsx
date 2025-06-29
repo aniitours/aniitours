@@ -1,40 +1,11 @@
 import "@fontsource/caudex";
 import "@fontsource/poppins";
-import trees from '../static/icons/trees-icon.svg';
-import binocular from '../static/icons/binocular-icon.svg';
-import swim from '../static/icons/swim-icon.svg';
-import sleep from '../static/icons/sleep-icon.svg';
-import ticket from '../static/about-us/ticket.png';
-import balloon from '../static/about-us/hot-air-balloon.png';
-import diamond from '../static/about-us/diamond.png';
+
+const ticket = '/static/about-us/ticket.png';
+const balloon = '/static/about-us/hot-air-balloon.png';
+const diamond = '/static/about-us/diamond.png';
 
 
-const services = [
-  {
-    icon: trees,
-    color: 'bg-[#DFEBE0]',
-    title: 'Guided Tours',
-    description: 'Explore the Andaman Islands with our expertly guided tours just for you!'
-  },
-  {
-    icon: binocular,
-    color: 'bg-[#f5884933]',
-    title: 'Sight Seeing',
-    description: 'Discover the Andaman Islands with our guided sightseeing tours!'
-  },
-  {
-    icon: swim,
-    color: 'bg-[#4DEDED26]',
-    title: 'Adventures',
-    description: 'Dive into adventure with our guided tour, featuring thrilling water activities!'
-  },
-  {
-    icon: sleep,
-    color: 'bg-[#FFA0AC33]',
-    title: 'Hotel Bookings',
-    description: 'Book your stay in the Andaman Islands with our hotel booking services!'
-  }
-];
 
 export function WhyAmram() {
   return (

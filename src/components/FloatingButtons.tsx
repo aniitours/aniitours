@@ -1,14 +1,11 @@
-import React, { useState, useEffect, useRef } from 'react';
+import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
 import { useLocation } from 'react-router-dom';
 
 const FloatingButtons = () => {
-  const [isMobile, setIsMobile] = useState(false);
-  const [isVisible, setIsVisible] = useState(true);
-  const [isFilterContainerVisible, setIsFilterContainerVisible] = useState(false);
-  const scrollTimeout = useRef<number | null>(null);
   const location = useLocation();
+  const [isMobile, setIsMobile] = useState(false);
 
   useEffect(() => {
     const checkIsMobile = () => {
@@ -19,62 +16,16 @@ const FloatingButtons = () => {
     return () => window.removeEventListener('resize', checkIsMobile);
   }, []);
 
-  useEffect(() => {
-    if (!isMobile) {
-      setIsVisible(true);
-      return;
-    }
+  // On the tour packages page, we don't show these buttons.
+  if (location.pathname === '/tour-packages') {
+    return null;
+  }
 
-    const handleScroll = () => {
-      setIsVisible(false);
-      if (scrollTimeout.current) {
-        clearTimeout(scrollTimeout.current);
-      }
-      scrollTimeout.current = setTimeout(() => {
-        setIsVisible(true);
-      }, 2000);
-    };
-
-    window.addEventListener('scroll', handleScroll);
-
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-      if (scrollTimeout.current) {
-        clearTimeout(scrollTimeout.current);
-      }
-    };
-  }, [isMobile]);
-
-  useEffect(() => {
-    if (location.pathname !== '/tour-packages' || !isMobile) {
-      setIsFilterContainerVisible(false);
-      return;
-    }
-
-    const packagesSection = document.getElementById('packages-section');
-    if (!packagesSection) return;
-
-    const observer = new IntersectionObserver(
-      ([entry]) => {
-        setIsFilterContainerVisible(entry.isIntersecting);
-      },
-      { threshold: 0.1 }
-    );
-
-    observer.observe(packagesSection);
-
-    return () => {
-      observer.unobserve(packagesSection);
-    };
-  }, [location.pathname, isMobile]);
-
-  const phoneNumber = '9745642272';
-  const whatsappNumber = '9745642272';
+  const phoneNumber = '9932081208';
+  const whatsappNumber = '9434265519';
 
   const phoneHref = isMobile ? `tel:${phoneNumber}` : '#contact-form';
   const whatsappHref = `https://wa.me/${whatsappNumber}`;
-
-  const shouldBeVisible = isVisible && !isFilterContainerVisible;
 
   const handlePhoneClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!isMobile) {
@@ -85,9 +36,7 @@ const FloatingButtons = () => {
 
   return (
     <div
-      className={`fixed bottom-8 right-8 flex flex-col gap-4 z-50 transition-opacity duration-500 ${
-        shouldBeVisible ? 'opacity-100' : 'opacity-0 pointer-events-none'
-      }`}
+      className="fixed bottom-8 right-8 flex flex-col gap-4 z-50"
     >
       <a
         href={phoneHref}

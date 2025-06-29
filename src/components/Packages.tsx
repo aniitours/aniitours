@@ -10,7 +10,6 @@ export function Packages() {
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="flex justify-between items-center mb-8">
         <div>
-        <p className="text-xl font-caudex underline decoration-solid text-[#181E4B]">Packages</p>
         <h2 className="font-caudex text-2xl font-bold text-[#181E4B]">Tour packages you will Love!</h2>
         </div>
         <Link to="/tour-packages" className="text-blue-600 hover:underline hidden md:block">View all Packages →</Link>
@@ -18,9 +17,9 @@ export function Packages() {
       
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
         {topPackages.map((pkg, index) => (
-          <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition p-2">
+                    <div key={index} className="bg-white rounded-2xl overflow-hidden shadow-xl hover:shadow-2xl transition p-2 border-2 border-transparent hover:border-[#E2ECFF]">
             <img 
-              src={pkg.image}
+              src={pkg.images}
               alt={pkg.title}
               className="h-48 w-full object-cover rounded-2xl"
             />
