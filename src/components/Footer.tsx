@@ -1,4 +1,5 @@
 import { Facebook, Twitter, Instagram } from 'lucide-react';
+import { Link } from 'react-router-dom';
 
 const footerHill = './static/footer/footer-hill.png';
 const websiteLogo = './static/nav/amram-logo-75x.png';
@@ -26,20 +27,20 @@ export function Footer() {
           <div>
             <h3 className="text-lg font-semibold mb-4">Important Links</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">About Us</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Contact</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Terms</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">Privacy</a></li>
+              <li><Link to="/about-us" className="text-gray-400 hover:text-white">About Us</Link></li>
+              <li><Link to="/tour-packages#contact-form" className="text-gray-400 hover:text-white">Contact</Link></li>
+              <li><Link to="/terms" className="text-gray-400 hover:text-white">Terms</Link></li>
+              <li><Link to="/privacy" className="text-gray-400 hover:text-white">Privacy</Link></li>
             </ul>
           </div>
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Popular Tour Packages</h3>
             <ul className="space-y-2">
-              <li><a href="#" className="text-gray-400 hover:text-white">3 Night 4 Days</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">4 Night 5 Days</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">5 Night 6 Days</a></li>
-              <li><a href="#" className="text-gray-400 hover:text-white">6 Night 7 Days</a></li>
+              <li><Link to="/tour-packages?duration=3N4D&category=premium" className="text-gray-400 hover:text-white">3 Night 4 Days</Link></li>
+              <li><Link to="/tour-packages?duration=4N5D&category=premium" className="text-gray-400 hover:text-white">4 Night 5 Days</Link></li>
+              <li><Link to="/tour-packages?duration=5N6D&category=premium" className="text-gray-400 hover:text-white">5 Night 6 Days</Link></li>
+              <li><Link to="/tour-packages?duration=6N7D&category=premium" className="text-gray-400 hover:text-white">6 Night 7 Days</Link></li>
             </ul>
           </div>
           

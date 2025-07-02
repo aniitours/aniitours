@@ -45,6 +45,25 @@ const PackageList = () => {
 
 
   useEffect(() => {
+    const params = new URLSearchParams(location.search);
+    const duration = params.get('duration');
+    const category = params.get('category');
+    const hasFilterParams = duration && category;
+
+    if (hasFilterParams) {
+      setSelectedDuration(duration);
+      setSelectedCategory(category);
+    }
+
+    const isMobile = window.innerWidth < 768;
+    if (isMobile && location.hash !== '#contact-form' && !hasFilterParams) {
+      setIsFilterOpen(true);
+    }
+  }, [location.search, location.hash]);
+
+
+
+  useEffect(() => {
     const mainContainer = document.getElementById('main-container');
     if (!mainContainer) return;
 
@@ -224,10 +243,10 @@ const PackageList = () => {
       {/* Mobile Filter Button */}
       <button
         onClick={() => setIsFilterOpen(true)}
-        className="md:hidden fixed bottom-10 right-6 bg-[#181433] bg-opacity-90 text-white p-4 rounded-full shadow-lg z-40 hover:bg-opacity-100 transition-all animate-glow-pulse"
+        className="md:hidden fixed bottom-10 right-6 text-white p-5 rounded-full z-40 transition-transform duration-300 hover:scale-110 siri-gradient"
         aria-label="Open filters"
       >
-        <Filter className="w-6 h-6" />
+        <Filter className="w-7 h-7" />
       </button>
 
       {/* Mobile Filter Popup */}

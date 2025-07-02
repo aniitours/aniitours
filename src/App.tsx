@@ -18,6 +18,8 @@ import { WhyAmram } from './components/WhyAmram';
 import { KeepPlanning } from './components/KeepPlanning';
 import PackageDetails from './components/PackageDetails';
 import { AndamanTours } from './components/AndamanTours';
+import Terms from './components/Terms';
+import Privacy from './components/Privacy';
 
 
 function App() {
@@ -47,6 +49,8 @@ function App() {
           <Route path="/andaman-tours" element={<AndamanTours />} />
           <Route path='/about-us' element={<AboutUs />}/>
           <Route path="/package/:id" element={<PackageDetails />} />
+          <Route path="/terms" element={<Terms />} />
+          <Route path="/privacy" element={<Privacy />} />
         </Routes>
         <Footer />
         <FloatingButtons />
