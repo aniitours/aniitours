@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/south-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/6N7D/south-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/south-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/6N7D/south-andaman/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/6N7D/south-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/6N7D/south-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Walk to the Limestone Caves, a unique calcite formation under the forest. Visit the Mud Volcano. Return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/6N7D/south-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/6N7D/south-andaman/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/6N7D/south-andaman/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -49,8 +49,8 @@ export const itineraryData = {
                 'Visit Kaalapathar Beach for a sunset experience (not ideal for swimming).'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/elephant-beach.png', name: 'Elephant beach' },
-                { url: '/static/package-details/6N7D/south-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/6N7D/south-andaman/elephant-beach.png', name: 'Elephant beach' },
+                { url: './static/package-details/6N7D/south-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -62,8 +62,8 @@ export const itineraryData = {
                 'Rest at the hotel, then visit Radhanagar Beach, known as Asia’s best beach, with crystal-clear waters and beautiful blue-green surroundings.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: './static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: './static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -74,7 +74,7 @@ export const itineraryData = {
                 'Take rest and then enjoy shopping in the city.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/srivijayapuram.png', name: 'Srivijayapuram' }
+                { url: './static/package-details/6N7D/south-andaman/srivijayapuram.png', name: 'Srivijayapuram' }
             ]
         },
         {

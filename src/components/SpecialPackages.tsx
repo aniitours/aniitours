@@ -1,7 +1,7 @@
-const couple = '/static/special-packages/couple.png';
-const shell = '/static/special-packages/shell.png';
-const otherCouple = '/static/special-packages/couple.jpg';
-const family = '/static/special-packages/family.jpg';
+const couple = './static/special-packages/couple.png';
+const shell = './static/special-packages/shell.png';
+const otherCouple = './static/special-packages/couple.jpg';
+const family = './static/special-packages/family.jpg';
 import "@fontsource/caudex";
 import { Link } from 'react-router-dom';
 import { TrendingUp } from '@mui/icons-material';

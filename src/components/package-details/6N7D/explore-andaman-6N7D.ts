@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/explore-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Return to the resort for rest, then visit Kaalapathar Beach for a sunset experience (not ideal for swimming).'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' },
-                { url: '/static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' },
+                { url: './static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Rest at the hotel, then visit Radhanagar Beach, known as Asia’s best beach, with crystal-clear waters and beautiful blue-green surroundings.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: './static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' }
             ]
         },
         {
@@ -48,7 +48,7 @@ export const itineraryData = {
                 'Today you can spend your quality valuable time in the resort or you can explore inyour own way by visiting the market and bearby areas.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -59,8 +59,8 @@ export const itineraryData = {
                 'footwear. Later a visit to a beautiful sunset at laxmanpur. beach completes the days itinerary after drop to resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur beach' },
+                { url: './static/package-details/6N7D/explore-andaman/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {

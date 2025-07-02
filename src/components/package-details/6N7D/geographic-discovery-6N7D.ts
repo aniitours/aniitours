@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/geographic-discovery/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/6N7D/geographic-discovery/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/geographic-discovery/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/6N7D/geographic-discovery/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/6N7D/geographic-discovery/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Walk to the Limestone Caves, a unique calcite formation under the forest. Visit the Mud Volcano. Return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/6N7D/geographic-discovery/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/6N7D/geographic-discovery/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/6N7D/geographic-discovery/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -49,8 +49,8 @@ export const itineraryData = {
                 'Later visit kaalapathar beach for sunset..'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                 { url: '/static/package-details/6N7D/geographic-discovery/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/6N7D/geographic-discovery/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                 { url: './static/package-details/6N7D/geographic-discovery/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -61,8 +61,8 @@ export const itineraryData = {
                 'footwear. Later a visit to a beautiful sunset at laxmanpur. beach completes the days itinerary after drop to resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/laxmanpur-beach.png', name: 'Laxmanpur beach' },
-                { url: '/static/package-details/6N7D/geographic-discovery/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/geographic-discovery/laxmanpur-beach.png', name: 'Laxmanpur beach' },
+                { url: './static/package-details/6N7D/geographic-discovery/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -73,7 +73,7 @@ export const itineraryData = {
                 'Take some rest and then enjoy shopping in the city.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/srivijayapuram.png', name: 'Srivijayapuram' }
+                { url: './static/package-details/6N7D/geographic-discovery/srivijayapuram.png', name: 'Srivijayapuram' }
             ]
         },
         {

@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/corbyns-cove-beach.png', name: 'Corbyn’s Cove Beach' },
-                { url: '/static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/3N4D/budgety-andaman/corbyns-cove-beach.png', name: 'Corbyn’s Cove Beach' },
+                { url: './static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,7 +25,7 @@ export const itineraryData = {
                 'Evening: Return to Sri Vijayapuram by cruise.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' }
+                { url: './static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Visit the Mud Volcano and return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/3N4D/budgety-andaman/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/3N4D/budgety-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/3N4D/budgety-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {

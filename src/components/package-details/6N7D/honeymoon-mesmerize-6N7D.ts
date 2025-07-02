@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'footwear. Later a visit to a beautiful sunset at laxmanpur. beach completes the days itinerary after drop to resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur beach' },
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur beach' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -36,8 +36,8 @@ export const itineraryData = {
                 'Enjoy other water activities at the beautiful Bharatpur Beach.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' }
             ]
         },
         {
@@ -58,9 +58,9 @@ export const itineraryData = {
                 'Visit Kaalapathar Beach for a beautiful sunset (not ideal for swimming).'
             ],
             images: [
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -71,7 +71,7 @@ export const itineraryData = {
                 'Take rest and then enjoy shopping in the city.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/honeymoon-mesmerize/srivijayapuram.png', name: 'Srivijayapuram' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/srivijayapuram.png', name: 'Srivijayapuram' }
             ]
         },
         {

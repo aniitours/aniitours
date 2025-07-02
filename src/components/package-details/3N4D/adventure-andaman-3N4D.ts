@@ -11,9 +11,9 @@ export const itineraryData = {
                 "Enjoy a sunset visit to Kaalapathar Beach, where swimming is not advisable, and return to the resort to complete the day."
             ],
             images: [
-                { url: '/static/package-details/3N4D/adventure-andaman/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/3N4D/adventure-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/3N4D/adventure-andaman/cruise.png', name: 'Cruise' },
+                { url: './static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/3N4D/adventure-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'Later return back to Sri Vijayapuram.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/adventure-andaman/swarajdweep.png', name: 'Swarajdweep' },
-                { url: '/static/package-details/3N4D/adventure-andaman/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: './static/package-details/3N4D/adventure-andaman/swarajdweep.png', name: 'Swarajdweep' },
+                { url: './static/package-details/3N4D/adventure-andaman/scuba-diving.jpg', name: 'Scuba Diving' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/adventure-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/3N4D/adventure-andaman/limestone-caves.png', name: 'Limestone Caves' }
+                { url: './static/package-details/3N4D/adventure-andaman/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/3N4D/adventure-andaman/limestone-caves.png', name: 'Limestone Caves' }
             ]
         },
         {

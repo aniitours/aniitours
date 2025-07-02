@@ -3,13 +3,13 @@ import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
-const bananaRide = '/static/activities/banana-ride.png';
-const islandHopping = '/static/activities/island-hopping.jpg';
-const kayaking = '/static/activities/kayaking.jpg';
-const paraGliding = '/static/activities/para-gliding.jpg';
-const scubaDiving = '/static/activities/scuba-diving.jpg';
-const seaWalking = '/static/activities/sea-walking.png';
-const snorkeling = '/static/activities/snorkeling.jpg';
+const bananaRide = './static/activities/banana-ride.png';
+const islandHopping = './static/activities/island-hopping.jpg';
+const kayaking = './static/activities/kayaking.jpg';
+const paraGliding = './static/activities/para-gliding.jpg';
+const scubaDiving = './static/activities/scuba-diving.jpg';
+const seaWalking = './static/activities/sea-walking.png';
+const snorkeling = './static/activities/snorkeling.jpg';
 
 const activities = [
   { name: "Banana Ride", image: bananaRide },

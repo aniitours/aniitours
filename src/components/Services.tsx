@@ -1,9 +1,9 @@
 import "@fontsource/caudex";
 import "@fontsource/poppins";
-const trees = '/static/icons/trees-icon.svg';
-const binocular = '/static/icons/binocular-icon.svg';
-const swim = '/static/icons/swim-icon.svg';
-const sleep = '/static/icons/sleep-icon.svg';
+const trees = './static/icons/trees-icon.svg';
+const binocular = './static/icons/binocular-icon.svg';
+const swim = './static/icons/swim-icon.svg';
+const sleep = './static/icons/sleep-icon.svg';
 
 const services = [
   {

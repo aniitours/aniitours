@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/5N6D/honeymoon-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/5N6D/honeymoon-trip/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/5N6D/honeymoon-trip/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/5N6D/honeymoon-trip/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Visit Kaalapathar Beach for a sunset experience (not ideal for swimming).'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/5N6D/honeymoon-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: './static/package-details/5N6D/honeymoon-trip/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -50,7 +50,7 @@ export const itineraryData = {
                 'Latersunset visit at laxmanpur beach.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/bharatpur-beach.png', name: 'Bharatpur beach' }
+                { url: './static/package-details/5N6D/honeymoon-trip/bharatpur-beach.png', name: 'Bharatpur beach' }
             ]
         },
         {
@@ -61,7 +61,7 @@ export const itineraryData = {
                 'Return to Srivijayapuram and enjoy a mini city tour of museums, followed by shopping.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/neil-coral-bridge.png', name: 'Neil coral bridge' }
+                { url: './static/package-details/5N6D/honeymoon-trip/neil-coral-bridge.png', name: 'Neil coral bridge' }
             ]
         },
         {

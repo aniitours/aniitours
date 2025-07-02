@@ -3,19 +3,19 @@ const testimonials = [
     quote: '"The Andaman trip was absolutely magical! From the pristine beaches to the seamless travel arrangements, everything was perfect. A truly unforgettable experience."',
     name: 'Shreya Sharma',
     location: 'Mumbai, India',
-    avatar: '/static/testimonials/avatar1.png',
+    avatar: './static/testimonials/avatar1.png',
   },
   {
     quote: '"Our family vacation was a huge success, thanks to the amazing itinerary. The kids loved the water sports, and we enjoyed the serene beauty of the islands."',
     name: 'Amit Patel',
     location: 'Delhi, India',
-    avatar: '/static/testimonials/avatar2.png',
+    avatar: './static/testimonials/avatar2.png',
   },
   {
     quote: '"A fantastic honeymoon destination! The private dinners and sunset cruises were incredibly romantic. Highly recommend for couples looking for a special getaway."',
     name: 'Priya Singh',
     location: 'Bangalore, India',
-    avatar: '/static/testimonials/avatar3.png',
+    avatar: './static/testimonials/avatar3.png',
   },
 ];
 

@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/4N5D/scuba-touch/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/4N5D/scuba-touch/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/4N5D/scuba-touch/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,7 +24,7 @@ export const itineraryData = {
                 'Enjoy scuba diving and explore the serene blue waters and white sandy beach until the afternoon.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: './static/package-details/4N5D/scuba-touch/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -35,7 +35,7 @@ export const itineraryData = {
                 'After Check-in, you’ll be taken to natural coral bridge during lowtide which showcases live fishes and corals along the way due to low tide. Later return back tosrivijayapuram.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -46,7 +46,7 @@ export const itineraryData = {
                 'Relax and unwind after the journey.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {

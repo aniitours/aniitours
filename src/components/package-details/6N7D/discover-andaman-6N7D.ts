@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/discover-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/discover-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/6N7D/discover-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/discover-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Later visit kaalapathar beach for sunset..'
             ],
             images: [
-                { url: '/static/package-details/6N7D/discover-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/6N7D/discover-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/6N7D/discover-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: './static/package-details/6N7D/discover-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: './static/package-details/6N7D/discover-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/6N7D/discover-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Head to Laxmanpur Beach for a stunning sunset before returning to the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/discover-andaman/bharatpur-beach.png', name: 'Bharatpur beach' },
-                { url: '/static/package-details/6N7D/discover-andaman/sitapur-beach.png', name: 'Sitapur beach' }
+                { url: './static/package-details/6N7D/discover-andaman/bharatpur-beach.png', name: 'Bharatpur beach' },
+                { url: './static/package-details/6N7D/discover-andaman/sitapur-beach.png', name: 'Sitapur beach' }
             ]
         },
         {
@@ -50,7 +50,7 @@ export const itineraryData = {
                 'Return to Srivijayapuram, with time for shopping before the day ends.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/discover-andaman/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/discover-andaman/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -61,8 +61,8 @@ export const itineraryData = {
                 'Walk to the Limestone Caves, a unique calcite formation under the forest. Visit the Mud Volcano. Return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/discover-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/6N7D/discover-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/6N7D/discover-andaman/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/6N7D/discover-andaman/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -74,8 +74,8 @@ export const itineraryData = {
                 'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/discover-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/6N7D/discover-andaman/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/6N7D/discover-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/6N7D/discover-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {

@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/mini-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/3N4D/mini-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/3N4D/mini-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/3N4D/mini-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,7 +24,7 @@ export const itineraryData = {
                 'Later day at your leisure for spending your valuable time .you can also explore the dweep in yourway .'
             ],
             images: [
-                { url: '/static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -35,8 +35,8 @@ export const itineraryData = {
                 'Proceed for a vehicle trip to visit the Anthropological Museum, Samudrika Naval Museum, and Chatham Museum. Enjoy shopping for handicrafts and island souvenirs as an added experience.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/mini-andaman/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/3N4D/mini-andaman/museum.png', name: 'Museum' }
+                { url: './static/package-details/3N4D/mini-andaman/cruise.png', name: 'Cruise' },
+                { url: './static/package-details/3N4D/mini-andaman/museum.png', name: 'Museum' }
             ]
         },
         {

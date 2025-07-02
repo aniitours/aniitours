@@ -11,9 +11,9 @@ export const itineraryData = {
                 "Enjoy a sunset visit to Kaalapathar Beach, where swimming is not advisable, and return to the resort to complete the day."
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-honeymoon/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/3N4D/classic-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/3N4D/classic-honeymoon/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/3N4D/classic-honeymoon/cruise.png', name: 'Cruise' },
+                { url: './static/package-details/3N4D/classic-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/3N4D/classic-honeymoon/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Later day at your leisure for spending your valuable time .you can also explore the dweep in your way.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-honeymoon/swarajdweep.png', name: 'Swarajdweep' },
-                { url: '/static/package-details/3N4D/classic-honeymoon/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: './static/package-details/3N4D/classic-honeymoon/swarajdweep.png', name: 'Swarajdweep' },
+                { url: './static/package-details/3N4D/classic-honeymoon/scuba-diving.jpg', name: 'Scuba Diving' }
             ]
         },
         {
@@ -36,8 +36,8 @@ export const itineraryData = {
                 'Return to Sri Vijayapuram and enjoy shopping before concluding the day.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-honeymoon/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/3N4D/classic-honeymoon/coral-bridge.png', name: 'Coral Island' }
+                { url: './static/package-details/3N4D/classic-honeymoon/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/3N4D/classic-honeymoon/coral-bridge.png', name: 'Coral Island' }
             ]
         },
         {

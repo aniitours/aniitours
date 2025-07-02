@@ -1,9 +1,9 @@
 import { TrendingUp } from '@mui/icons-material';
 import { Link } from 'react-router-dom';
 import "@fontsource/poppins";
-const destination1 = '/static/destinations/Portblair.png';
-const destination2 = '/static/destinations/HavelockIsland.png';
-const destination3 = '/static/destinations/Neil.png';
+const destination1 = './static/destinations/Portblair.png';
+const destination2 = './static/destinations/HavelockIsland.png';
+const destination3 = './static/destinations/Neil.png';
 
 const destinations = [
   { name: "Port Blair", image: destination1 },

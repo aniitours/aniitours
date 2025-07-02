@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/couple-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/couple-special/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/6N7D/couple-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/couple-special/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Later visit kaalapathar beach for sunset..'
             ],
             images: [
-                { url: '/static/package-details/6N7D/couple-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/6N7D/couple-special/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/6N7D/couple-special/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: './static/package-details/6N7D/couple-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: './static/package-details/6N7D/couple-special/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/6N7D/couple-special/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Rest at the hotel, then visit Radhanagar Beach, known as Asia’s best beach, with crystal-clear waters and beautiful blue-green surroundings.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/couple-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/6N7D/couple-special/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: './static/package-details/6N7D/couple-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/6N7D/couple-special/scuba-diving.jpg', name: 'Scuba Diving' }
             ]
         },
         {
@@ -50,7 +50,7 @@ export const itineraryData = {
                 'Return to Srivijayapuram, with time for shopping before the day ends.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/couple-special/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/couple-special/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -60,8 +60,8 @@ export const itineraryData = {
                 'the two beaches bharatpur beach and sitapur beach for swimmingand optional water activities.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/couple-special/bharatpur-beach.png', name: 'Bharatpur beach' },
-                { url: '/static/package-details/6N7D/couple-special/sitapur-beach.png', name: 'Sitapur beach' }
+                { url: './static/package-details/6N7D/couple-special/bharatpur-beach.png', name: 'Bharatpur beach' },
+                { url: './static/package-details/6N7D/couple-special/sitapur-beach.png', name: 'Sitapur beach' }
             ]
         },
         {
@@ -72,7 +72,7 @@ export const itineraryData = {
                 'Take some rest and then enjoy shopping in the city.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/couple-special/srivijayapuram.png', name: 'Srivijayapuram' }
+                { url: './static/package-details/6N7D/couple-special/srivijayapuram.png', name: 'Srivijayapuram' }
             ]
         },
         {

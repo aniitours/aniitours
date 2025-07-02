@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/ultimate-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/5N6D/ultimate-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/5N6D/ultimate-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/5N6D/ultimate-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Visit Kaalapathar Beach for a sunset experience (not ideal for swimming).'
             ],
             images: [
-                { url: '/static/package-details/5N6D/ultimate-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/5N6D/ultimate-andaman/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/5N6D/ultimate-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/5N6D/ultimate-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'End the day with a romantic candlelight dinner at the resort.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/ultimate-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/5N6D/ultimate-andaman/candle-night-dinner.png', name: 'Candle night dinner' }
+                { url: './static/package-details/5N6D/ultimate-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/5N6D/ultimate-andaman/candle-night-dinner.png', name: 'Candle night dinner' }
             ]
         },
         {
@@ -50,8 +50,8 @@ export const itineraryData = {
                 'Walk to the Limestone Caves, a unique calcite formation under the forest. Visit the Mud Volcano. Return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/ultimate-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/5N6D/ultimate-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/5N6D/ultimate-andaman/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/5N6D/ultimate-andaman/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -63,8 +63,8 @@ export const itineraryData = {
                 'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/ultimate-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/5N6D/ultimate-andaman/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/5N6D/ultimate-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/5N6D/ultimate-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {

@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/islands-exotic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/5N6D/islands-exotic/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/5N6D/islands-exotic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/5N6D/islands-exotic/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/islands-exotic/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/5N6D/islands-exotic/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/5N6D/islands-exotic/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/5N6D/islands-exotic/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Visit the Mud Volcano, a unique natural attraction. Return to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/islands-exotic/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/5N6D/islands-exotic/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/5N6D/islands-exotic/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/5N6D/islands-exotic/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -49,7 +49,7 @@ export const itineraryData = {
                 'Visit Shaheed Dweep, then proceed to Laxmanpur Beach for a mesmerizing sunset before checking into your accommodation.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -60,7 +60,7 @@ export const itineraryData = {
                 'Return to Srivijayapuram, with time for shopping before the day ends.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {

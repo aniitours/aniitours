@@ -11,9 +11,9 @@ export const itineraryData = {
                 "Enjoy a sunset visit to Kaalapathar Beach, where swimming is not advisable, and return to the resort to complete the day."
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/3N4D/classic-short-trip/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/3N4D/classic-short-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
+                { url: './static/package-details/3N4D/classic-short-trip/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/3N4D/classic-short-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Return to Sri Vijayapuram and enjoy shopping before concluding the day.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-short-trip/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/3N4D/classic-short-trip/north-bay-island.png', name: 'North Bay Island' },
+                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Enjoy shopping for handicrafts and island souvenirs as an added experience.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
+                { url: './static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
+                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
             ]
         },
         {

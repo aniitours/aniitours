@@ -1,7 +1,7 @@
 import { Facebook, Twitter, Instagram } from 'lucide-react';
 
-const footerHill = '/static/footer/footer-hill.png';
-const websiteLogo = '/static/nav/amram-logo-75x.png';
+const footerHill = './static/footer/footer-hill.png';
+const websiteLogo = './static/nav/amram-logo-75x.png';
 
 export function Footer() {
   return (

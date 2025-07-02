@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-special/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/5N6D/honeymoon-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/5N6D/honeymoon-special/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Visit Kaalapathar Beach for a sunset experience (not ideal for swimming).'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/5N6D/honeymoon-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: './static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'End the day with a romantic candlelight dinner at the a resort.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-special/candle-night-dinner.png', name: 'Candle night dinner' }
+                { url: './static/package-details/5N6D/honeymoon-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/5N6D/honeymoon-special/candle-night-dinner.png', name: 'Candle night dinner' }
             ]
         },
         {
@@ -50,7 +50,7 @@ export const itineraryData = {
                 'Enjoy the sunset at Laxmanpur Beach.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/5N6D/honeymoon-special/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -61,7 +61,7 @@ export const itineraryData = {
                 'Shopping can be done at this time.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/cruise.png', name: 'Cruise' }
+                { url: './static/package-details/5N6D/honeymoon-special/cruise.png', name: 'Cruise' }
             ]
         },
         {

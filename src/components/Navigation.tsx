@@ -1,6 +1,6 @@
 import { useState, useEffect } from 'react';
 import { Link, NavLink } from 'react-router-dom';
-const websiteLogo = '/static/nav/amram-logo-75x.png';
+const websiteLogo = './static/nav/amram-logo-75x.png';
 import "@fontsource/marck-script";
 import "@fontsource/poppins";
 

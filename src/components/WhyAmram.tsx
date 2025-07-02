@@ -1,9 +1,9 @@
 import "@fontsource/caudex";
 import "@fontsource/poppins";
 
-const ticket = '/static/about-us/ticket.png';
-const balloon = '/static/about-us/hot-air-balloon.png';
-const diamond = '/static/about-us/diamond.png';
+const ticket = './static/about-us/ticket.png';
+const balloon = './static/about-us/hot-air-balloon.png';
+const diamond = './static/about-us/diamond.png';
 
 
 

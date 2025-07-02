@@ -1,12 +1,12 @@
 import { Filter, X } from 'lucide-react';
-const trees = '/static/icons/trees-icon.svg';
-const binocular = '/static/icons/binocular-icon.svg';
-const filterPlane = '/static/tour-packages/filter-plane.png';
-const swim = '/static/icons/swim-icon.svg';
-const sleep = '/static/icons/sleep-icon.svg';
+const trees = './static/icons/trees-icon.svg';
+const binocular = './static/icons/binocular-icon.svg';
+const filterPlane = './static/tour-packages/filter-plane.png';
+const swim = './static/icons/swim-icon.svg';
+const sleep = './static/icons/sleep-icon.svg';
 import { Destinations } from './Destinations';
 import ContactForm from './ContactForm';
-const shell = '/static/contact/shell.png';
+const shell = './static/contact/shell.png';
 
 import { HeroContent } from './HeroContent';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -199,7 +199,7 @@ const PackageList = () => {
         </div>
         
         <Destinations />
-        <div className="bg-[url(/src/static/contact/contact-bg.png)] py-20">
+        <div className="bg-[url(./static/contact/contact-bg.png)] py-20">
           <div className="container max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className='text-center'>

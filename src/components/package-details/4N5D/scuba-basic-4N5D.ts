@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-basic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/4N5D/scuba-basic/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/4N5D/scuba-basic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/4N5D/scuba-basic/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,7 +24,7 @@ export const itineraryData = {
                 'After Check-in,  you’ll be taken to natural coral bridge during lowtide which showcases live fishes and corals along the way due to low tide. Later return back tosrivijayapuram.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -35,7 +35,7 @@ export const itineraryData = {
                 'Later day at your leisure for spending your valuable time.  Later after relaxing proceed for the evening sunset.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -46,7 +46,7 @@ export const itineraryData = {
                 'Relax and visit Radhanagar Beach for swimming at secure locations before returning to Srivijayapuram.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {

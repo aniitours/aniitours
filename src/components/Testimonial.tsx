@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react';
-const testimonialBg = '/static/testimonial/testimonial-bg.png';
-const passport = '/static/testimonial/passport.png';
-const drMani = '/static/testimonial/dr-mani.jpg';
-const drSunitha = '/static/testimonial/dr-sunitha.jpg';
-const gopal = '/static/testimonial/gopal.jpg';
-const shobana = '/static/testimonial/shobana.jpg';
+const testimonialBg = './static/testimonial/testimonial-bg.png';
+const passport = './static/testimonial/passport.png';
+const drMani = './static/testimonial/dr-mani.jpg';
+const drSunitha = './static/testimonial/dr-sunitha.jpg';
+const gopal = './static/testimonial/gopal.jpg';
+const shobana = './static/testimonial/shobana.jpg';
 
 const testimonials = [
   {

@@ -12,8 +12,8 @@ export const itineraryData = {
                 'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/4N5D/family-special/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/4N5D/family-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/4N5D/family-special/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Enjoy scuba diving and explore the serene blue waters and white sandy beach until the afternoon.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/4N5D/family-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/4N5D/family-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/4N5D/family-special/cruise.png', name: 'Cruise' },
+                { url: './static/package-details/4N5D/family-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/4N5D/family-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -37,7 +37,7 @@ export const itineraryData = {
                 'After Check-in,  you’ll be taken to natural coral bridge during lowtide which showcases live fishes and corals along the way due to low tide. Later return back tosrivijayapuram.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/family-special/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -48,8 +48,8 @@ export const itineraryData = {
                 'Visit the Mud Volcano before returning to Srivijayapuram via the same route.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/4N5D/family-special/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/4N5D/family-special/baratang-island.png', name: 'Baratang Island' },
+                { url: './static/package-details/4N5D/family-special/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
