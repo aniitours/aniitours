@@ -41,7 +41,7 @@ export function Navigation() {
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex flex-col items-center justify-center">
             <img className="h-8" src={websiteLogo} alt="ANII Tours logo" />
-            <div className="text-lg font-marck text-[#204F69]">ANII Tours</div>
+            <div className="text-lg font-poppins text-[#204F69]">ANII Tours</div>
           </Link>
           
           {/* Desktop Menu */}

@@ -30,16 +30,16 @@ export function Packages() {
                     <Clock className="w-4 h-4 text-gray-500 mr-1" />
                     <span className="font-normal text-gray-600 font-poppins">{pkg.durationAlias}</span>
                   </div>
-                  <h3 className="text-xl font-semibold mb-2 font-caudex text-[#181E4B]">{pkg.title}</h3>
+                  <h3 className="text-xl font-semibold mb-2 text-[#181E4B]">{pkg.title}</h3>
                 </div>
                 <div className="basis-[30%]">
-                  <h3 className="font-normal flex justify-end font-poppins text-[#EFAC00]">Premium</h3>
-                  <span className="text-xl font-semibold flex justify-end">{pkg.price}</span>
+                  <h3 className="font-normal flex justify-end font-poppins text-[#37863A] whitespace-nowrap">pricing starts&nbsp;@</h3>
+                  <span className="text-xl font-semibold flex justify-end">₹{pkg.prices?.budget || pkg.price}</span>
                 </div>
               </div>
               <div className="flex items-center space-x-4 mb-4">
                 <div className="flex items-center">
-                  <span className="text-md font-semibold text-[#7C7C7C]">{pkg.locations.join(' -- ')}</span>
+                  <span className="text-md font-semibold text-[#7C7C7C]">{pkg.subtitle}</span>
                 </div>
               </div>
               <hr></hr>
