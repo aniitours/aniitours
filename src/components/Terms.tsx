@@ -6,7 +6,7 @@ const Terms = () => {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">AGREEMENT TO TERMS</h2>
       <p className="mb-4">
-        These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and Amram (“we,” “us” or “our”), concerning your access to and use of the amram.com website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).
+        These Terms and Conditions constitute a legally binding agreement made between you, whether personally or on behalf of an entity (“you”) and ANII Tours (“we,” “us” or “our”), concerning your access to and use of the aniitours.com website as well as any other media form, media channel, mobile website or mobile application related, linked, or otherwise connected thereto (collectively, the “Site”).
       </p>
       <p className="mb-4">
         You agree that by accessing the Site, you have read, understood, and agree to be bound by all of these Terms and Conditions. If you do not agree with all of these Terms and Conditions, then you are expressly prohibited from using the Site and you must discontinue use immediately.
@@ -29,7 +29,7 @@ const Terms = () => {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">GOVERNING LAW</h2>
       <p className="mb-4">
-        These Terms and Conditions and your use of the Site are governed by and construed in accordance with the laws of the jurisdiction where Amram is located, without regard to its conflict of law principles.
+        These Terms and Conditions and your use of the Site are governed by and construed in accordance with the laws of the jurisdiction where ANII Tours is located, without regard to its conflict of law principles.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">DISCLAIMER</h2>

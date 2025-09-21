@@ -40,8 +40,8 @@ export function Navigation() {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center h-16">
           <Link to="/" className="flex flex-col items-center justify-center">
-            <img className="h-8" src={websiteLogo} alt="Amram logo" />
-            <div className="text-lg font-marck text-[#204F69]">Amram</div>
+            <img className="h-8" src={websiteLogo} alt="ANII Tours logo" />
+            <div className="text-lg font-marck text-[#204F69]">ANII Tours</div>
           </Link>
           
           {/* Desktop Menu */}

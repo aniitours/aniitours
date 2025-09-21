@@ -12,7 +12,7 @@ export function WhyAmram() {
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="py-16">
         <div className="container mx-auto px-4">
-          <h2 className="text-2xl font-bold text-center mb-12 font-caudex">Why Choose Amram</h2>
+          <h2 className="text-2xl font-bold text-center mb-12 font-caudex">Why Choose ANII Tours</h2>
           <div className="grid md:grid-cols-3 gap-8">
             <div className="text-center flex flex-col items-center">
               <img src={ticket} alt="" className="mb-4"/>

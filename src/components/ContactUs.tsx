@@ -61,7 +61,7 @@ const ContactUs = () => {
               </div>
               <div>
                 <h4 className="text-xl font-semibold font-caudex text-gray-800">Email</h4>
-                <p className="text-gray-600 font-poppins">contact@amramtravels.com</p>
+                <p className="text-gray-600 font-poppins">contact@aniitours.com</p>
               </div>
             </div>
           </div>

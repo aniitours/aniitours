@@ -6,7 +6,6 @@ const swim = './static/icons/swim-icon.svg';
 const sleep = './static/icons/sleep-icon.svg';
 import { Destinations } from './Destinations';
 import ContactForm from './ContactForm';
-const shell = './static/contact/shell.png';
 
 import { HeroContent } from './HeroContent';
 import { useNavigate, useLocation } from 'react-router-dom';
@@ -233,7 +232,7 @@ const PackageList = () => {
         </div>
         
         <Destinations />
-        <div className="bg-[url(./static/contact/contact-bg.png)] py-20">
+        <div className="bg-[url('/static/contact/contact-bg.png')] py-20">
           <div className="container max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className='text-center'>
@@ -242,7 +241,7 @@ const PackageList = () => {
                   Traveling under your own power and at your own pace, you'll connect more meaningfully with your destination and have more fun!
                 </p>
                 <img 
-                  src={shell}
+                  src="/static/contact/shell.png"
                   alt="Decorative shell"
                   className="w-64 opacity-50 mt-12 mx-auto"
                 />

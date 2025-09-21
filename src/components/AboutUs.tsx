@@ -30,10 +30,10 @@ const AboutUs = () => {
           <div className="md:col-span-3 flex flex-col">
             {/* Text */}
             <div>
-              <h1 className="text-3xl font-bold mb-6 font-caudex">Welcome to Amram</h1>
+              <h1 className="text-3xl font-bold mb-6 font-caudex">Welcome to ANII Tours</h1>
               <p className="text-gray-600 mb-6 font-poppins">
                 Creating Unforgettable Travel Experiences Combined with Nature
-                At Amram, we are dedicated to crafting unique and memorable journeys that immerse you in the natural beauty and cultural richness of the Andaman and Nicobar Islands. Our mission is to provide adventures that are both thrilling and enriching, ensuring you experience the best of what this stunning region has to offer.
+                At ANII Tours, we are dedicated to crafting unique and memorable journeys that immerse you in the natural beauty and cultural richness of the Andaman and Nicobar Islands. Our mission is to provide adventures that are both thrilling and enriching, ensuring you experience the best of what this stunning region has to offer.
               </p>
             </div>
             {/* 2 Images */}
@@ -62,10 +62,10 @@ const AboutUs = () => {
                 <div>
                 <h2 className="text-2xl font-bold mb-6 font-caudex">Our Journey</h2>
                 <p className="text-gray-600 mb-6 font-poppins">
-                    With years of experience in organizing personalized tours, we decided to create a dedicated platform to share our expertise with a broader audience. Our tours are designed to be flexible, allowing you to customize your itinerary to suit your preferences and interests. Whether you seek the thrill of adventure, the serenity of beautiful landscapes, or the comfort of excellent accommodations, Amram is your ideal travel partner.
+                    With years of experience in organizing personalized tours, we decided to create a dedicated platform to share our expertise with a broader audience. Our tours are designed to be flexible, allowing you to customize your itinerary to suit your preferences and interests. Whether you seek the thrill of adventure, the serenity of beautiful landscapes, or the comfort of excellent accommodations, ANII Tours is your ideal travel partner.
                 </p>
                 <p className="text-gray-600 font-poppins">
-                    Today, Amram is proud to offer a diverse range of tours, from thrilling adventures to serene retreats. Whether you want to explore the vibrant marine life through scuba diving, trek through lush jungles, relax on secluded beaches, or experience the rich cultural heritage of the islands, we have something for everyone. Each tour is meticulously planned and executed, with attention to detail and a commitment to excellence.
+                    Today, ANII Tours is proud to offer a diverse range of tours, from thrilling adventures to serene retreats. Whether you want to explore the vibrant marine life through scuba diving, trek through lush jungles, relax on secluded beaches, or experience the rich cultural heritage of the islands, we have something for everyone. Each tour is meticulously planned and executed, with attention to detail and a commitment to excellence.
                 </p>
                 </div>
             </div>
@@ -81,7 +81,7 @@ const AboutUs = () => {
                 <img src={mission} alt="" className='my-2'/>
                 <h3 className="text-xl font-bold mb-4 font-caudex">Our Mission</h3>
                 <p className="text-gray-600 font-poppins">
-                At Amram, our mission is to create unforgettable travel experiences that seamlessly blend adventure, relaxation, and cultural immersion, all while showcasing the natural beauty and rich heritage of the Andaman and Nicobar islands.
+                At ANII Tours, our mission is to create unforgettable travel experiences that seamlessly blend adventure, relaxation, and cultural immersion, all while showcasing the natural beauty and rich heritage of the Andaman and Nicobar islands.
                 </p>
             </div>
             <div className='shadow-lg rounded-2xl p-6 px-8'>

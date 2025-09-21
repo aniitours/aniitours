@@ -5,7 +5,7 @@ const Privacy = () => {
       <p className="mb-2 text-sm text-gray-500">Last updated: July 2, 2025</p>
 
       <p className="mb-4">
-        This privacy notice for Amram (doing business as Amram) ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you visit our website at amram.com, or any website of ours that links to this privacy notice.
+        This privacy notice for ANII Tours (doing business as ANII Tours) ("Company," "we," "us," or "our"), describes how and why we might collect, store, use, and/or share ("process") your information when you use our services ("Services"), such as when you visit our website at aniitours.com, or any website of ours that links to this privacy notice.
       </p>
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">SUMMARY OF KEY POINTS</h2>

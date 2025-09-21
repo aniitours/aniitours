@@ -17,7 +17,7 @@ export function Footer() {
           <div>
           <div className="flex flex-col items-center justify-center mr-12">
             <img className="mt-4" src={websiteLogo} alt="Description of the image" />
-            <div className="text-xl font-marck text-[#204F69] basis-[10%]">Amram</div>
+            <div className="text-xl font-marck text-[#204F69] basis-[10%]">ANII Tours</div>
           </div>
             <p className="text-gray-400">
             C-101/2, Near Cottage Industries, Middle Point, Port Blair - 744101
