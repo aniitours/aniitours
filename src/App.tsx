@@ -7,7 +7,7 @@ import { SpecialPackages } from './components/SpecialPackages';
 import { Activities } from './components/Activities';
 import { Testimonial } from './components/Testimonial';
 import { Footer } from './components/Footer';
-import { HashRouter as Router, Routes, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import ScrollToTop from './components/ScrollToTop';
 import FloatingButtons from './components/FloatingButtons';
 import 'antd/dist/reset.css';
