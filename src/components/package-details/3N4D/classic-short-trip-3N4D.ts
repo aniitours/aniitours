@@ -11,9 +11,9 @@ export const itineraryData = {
                 'Evening: Enjoy the sunset at Kaalapathar Beach and a night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
-                { url: './static/package-details/3N4D/classic-short-trip/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/3N4D/classic-short-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
+                { url: '/static/package-details/3N4D/classic-short-trip/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/3N4D/classic-short-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' },
-                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' },
+                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
+                { url: '/static/package-details/3N4D/classic-short-trip/cruise.png', name: 'Cruise' },
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
             ]
         },
         {

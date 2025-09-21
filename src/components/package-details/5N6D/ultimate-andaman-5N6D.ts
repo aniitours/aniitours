@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/ultimate-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/5N6D/ultimate-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/5N6D/ultimate-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/5N6D/ultimate-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/5N6D/honeymoon-adventure/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/5N6D/ultimate-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/5N6D/honeymoon-adventure/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/5N6D/honeymoon-adventure/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/5N6D/ultimate-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/5N6D/honeymoon-adventure/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/honeymoon-adventure/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
+                { url: '/static/package-details/5N6D/honeymoon-adventure/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -51,8 +51,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/ultimate-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: './static/package-details/5N6D/ultimate-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/5N6D/ultimate-andaman/baratang-island.png', name: 'Baratang Island' },
+                { url: '/static/package-details/5N6D/ultimate-andaman/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -64,8 +64,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/ultimate-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: './static/package-details/5N6D/ultimate-andaman/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/5N6D/ultimate-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: '/static/package-details/5N6D/ultimate-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {

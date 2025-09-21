@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/6N7D/explore-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/6N7D/explore-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,10 +25,10 @@ export const itineraryData = {
                 'Evening: Visit Kaalapathar Beach for a beautiful sunset. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/6N7D/explore-andaman/elephant-island.png', name: 'Elephant Island' },
-                { url: './static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: './static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' }
+                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/6N7D/explore-andaman/elephant-island.png', name: 'Elephant Island' },
+                { url: '/static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: '/static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' }
             ]
         },
         {
@@ -40,8 +40,8 @@ export const itineraryData = {
                 'Evening: Relax at the beach and enjoy the sunset. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -52,7 +52,7 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -64,9 +64,9 @@ export const itineraryData = {
                 'Evening: Enjoy a beautiful sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
-                { url: './static/package-details/6N7D/explore-andaman/coral-bridge.png', name: 'Coral Bridge' }
+                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
+                { url: '/static/package-details/6N7D/explore-andaman/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
@@ -78,8 +78,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/6N7D/explore-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {

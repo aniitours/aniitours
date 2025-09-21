@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/mini-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/3N4D/mini-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/3N4D/mini-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/3N4D/mini-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Return to the resort for a night stay at Swaraj Dweep.'
             ],
             images: [
-                { url: './static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
+                { url: '/static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at Srivijayapuram.'
             ],
             images: [
-                { url: './static/package-details/3N4D/mini-andaman/cruise.png', name: 'Cruise' },
-                { url: './static/package-details/3N4D/mini-andaman/museum.png', name: 'Museum' }
+                { url: '/static/package-details/3N4D/mini-andaman/cruise.png', name: 'Cruise' },
+                { url: '/static/package-details/3N4D/mini-andaman/museum.png', name: 'Museum' }
             ]
         },
         {

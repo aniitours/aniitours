@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/6N7D/south-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/6N7D/south-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/6N7D/south-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: './static/package-details/6N7D/south-andaman/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/6N7D/south-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: '/static/package-details/6N7D/south-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: './static/package-details/6N7D/south-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/6N7D/south-andaman/baratang-island.png', name: 'Baratang Island' },
+                { url: '/static/package-details/6N7D/south-andaman/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -50,9 +50,9 @@ export const itineraryData = {
                 'Evening: Visit Kaalapathar Beach for a beautiful sunset. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/elephant-beach.png', name: 'Elephant Beach' },
-                { url: './static/package-details/6N7D/south-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: './static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Swaraj Dweep' }
+                { url: '/static/package-details/6N7D/south-andaman/elephant-beach.png', name: 'Elephant Beach' },
+                { url: '/static/package-details/6N7D/south-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: '/static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -64,8 +64,8 @@ export const itineraryData = {
                 'Evening: Relax at the beach and enjoy the sunset. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -77,8 +77,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/6N7D/south-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {

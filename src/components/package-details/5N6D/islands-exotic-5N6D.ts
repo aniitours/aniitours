@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/5N6D/islands-exotic/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/5N6D/islands-exotic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/5N6D/islands-exotic/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/north-bay-island.png', name: 'North Bay Island' },
-                { url: './static/package-details/5N6D/islands-exotic/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/5N6D/islands-exotic/north-bay-island.png', name: 'North Bay Island' },
+                { url: '/static/package-details/5N6D/islands-exotic/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/baratang-island.png', name: 'Baratang Island' },
-                { url: './static/package-details/5N6D/islands-exotic/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/5N6D/islands-exotic/baratang-island.png', name: 'Baratang Island' },
+                { url: '/static/package-details/5N6D/islands-exotic/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -50,9 +50,9 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/5N6D/honeymoon-adventure/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/5N6D/honeymoon-adventure/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -64,8 +64,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {

@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/geographic-discovery/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach' },
-                { url: './static/package-details/6N7D/geographic-discovery/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/6N7D/geographic-discovery/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/6N7D/geographic-discovery/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/geographic-discovery/ross-island.png', name: 'Ross Island' },
-                { url: './static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' }
+                { url: '/static/package-details/6N7D/geographic-discovery/ross-island.png', name: 'Ross Island' },
+                { url: '/static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/geographic-discovery/baratang-island.png', name: 'Baratang Island' },
-                { url: './static/package-details/6N7D/geographic-discovery/limestone-caves.png', name: 'Limestone Caves' }
+                { url: '/static/package-details/6N7D/geographic-discovery/baratang-island.png', name: 'Baratang Island' },
+                { url: '/static/package-details/6N7D/geographic-discovery/limestone-caves.png', name: 'Limestone Caves' }
             ]
         },
         {
@@ -50,9 +50,9 @@ export const itineraryData = {
                 'Evening: Enjoy a beautiful sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/geographic-discovery/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: './static/package-details/6N7D/geographic-discovery/coral-bridge.png', name: 'Coral Bridge' },
-                { url: './static/package-details/6N7D/geographic-discovery/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/6N7D/geographic-discovery/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/6N7D/geographic-discovery/coral-bridge.png', name: 'Coral Bridge' },
+                { url: '/static/package-details/6N7D/geographic-discovery/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -64,9 +64,9 @@ export const itineraryData = {
                 'Evening: Enjoy a sunset visit to Kaalapathar Beach. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/6N7D/geographic-discovery/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/6N7D/geographic-discovery/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/6N7D/geographic-discovery/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/6N7D/geographic-discovery/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/6N7D/geographic-discovery/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/6N7D/geographic-discovery/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -78,8 +78,8 @@ export const itineraryData = {
                 'Evening: Take some rest and then enjoy shopping in the city.'
             ],
             images: [
-                { url: './static/package-details/6N7D/geographic-discovery/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: './static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' }
+                { url: '/static/package-details/6N7D/geographic-discovery/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: '/static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' }
             ]
         },
         {
@@ -91,7 +91,7 @@ export const itineraryData = {
                 'Evening: Airport drop with beautiful memories.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         }
     ]

@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/honeymoon-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/5N6D/honeymoon-special/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/5N6D/honeymoon-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/5N6D/honeymoon-special/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,10 +24,10 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' },
-                { url: './static/package-details/6N7D/south-andaman/seawalk.jpg', name: 'Seawalk' },
-                { url: './static/package-details/5N6D/honeymoon-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' },
+                { url: '/static/package-details/6N7D/south-andaman/seawalk.jpg', name: 'Seawalk' },
+                { url: '/static/package-details/5N6D/honeymoon-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -39,9 +39,9 @@ export const itineraryData = {
                 'Evening: End the day with a romantic candlelight dinner and a night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/5N6D/honeymoon-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/5N6D/honeymoon-special/candle-night-dinner.png', name: 'Candle night dinner' }
+                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/5N6D/honeymoon-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/5N6D/honeymoon-special/candle-night-dinner.png', name: 'Candle night dinner' }
             ]
         },
         {
@@ -53,9 +53,9 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: './static/package-details/5N6D/honeymoon-special/coral-bridge.png', name: 'Coral Bridge' },
-                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/5N6D/honeymoon-special/coral-bridge.png', name: 'Coral Bridge' },
+                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -67,8 +67,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/watersports.jpg', name: 'Watersports' },
-                { url: './static/package-details/5N6D/honeymoon-special/cruise.png', name: 'Cruise' }
+                { url: '/static/package-details/6N7D/explore-andaman/watersports.jpg', name: 'Watersports' },
+                { url: '/static/package-details/5N6D/honeymoon-special/cruise.png', name: 'Cruise' }
             ]
         },
         {

@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/budgety-andaman/corbyns-cove-beach.png', name: 'Corbyn’s Cove Beach' },
-                { url: './static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/3N4D/budgety-andaman/corbyns-cove-beach.png', name: 'Corbyn’s Cove Beach' },
+                { url: '/static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' },
-                { url: './static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' },
+                { url: '/static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/budgety-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: './static/package-details/3N4D/budgety-andaman/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/3N4D/budgety-andaman/north-bay-island.png', name: 'North Bay Island' },
+                { url: '/static/package-details/3N4D/budgety-andaman/ross-island.png', name: 'Ross Island' }
             ]
         },
         {

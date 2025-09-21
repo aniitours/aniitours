@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Evening: Enjoy a romantic sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/coral-bridge.png', name: 'Coral Bridge' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/coral-bridge.png', name: 'Coral Bridge' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -38,10 +38,10 @@ export const itineraryData = {
                 'Evening: Explore Sitapur Beach and Ramnagar Beach. Enjoy the sunset and romantic beach walk. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' },
-                { url: './static/package-details/6N7D/couple-special/sitapur-beach.png', name: 'Sitapur Beach' },
-                { url: './static/package-details/6N7D/couple-special/ramnagar-beach.png', name: 'Ramnagar Beach' }
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: '/static/package-details/6N7D/couple-special/sitapur-beach.png', name: 'Sitapur Beach' },
+                { url: '/static/package-details/6N7D/couple-special/ramnagar-beach.png', name: 'Ramnagar Beach' }
             ]
         },
         {
@@ -52,9 +52,9 @@ export const itineraryData = {
                 'Evening: Romantic dinner by the beach (on your own). Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -66,9 +66,9 @@ export const itineraryData = {
                 'Evening: Enjoy a romantic sunset at Kaalapathar Beach. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -80,8 +80,8 @@ export const itineraryData = {
                 'Evening: Romantic dinner at a local restaurant (on your own). Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/6N7D/honeymoon-mesmerize/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {

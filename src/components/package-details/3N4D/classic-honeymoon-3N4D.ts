@@ -11,9 +11,9 @@ export const itineraryData = {
                 'Evening: Enjoy the sunset at Kaalapathar Beach and a night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-honeymoon/cruise.png', name: 'Cruise' },
-                { url: './static/package-details/3N4D/classic-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/3N4D/classic-honeymoon/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/3N4D/classic-honeymoon/cruise.png', name: 'Cruise' },
+                { url: '/static/package-details/3N4D/classic-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/3N4D/classic-honeymoon/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -25,8 +25,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-honeymoon/swarajdweep.png', name: 'Swarajdweep' },
-                { url: './static/package-details/3N4D/classic-honeymoon/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: '/static/package-details/3N4D/classic-honeymoon/swarajdweep.png', name: 'Swarajdweep' },
+                { url: '/static/package-details/3N4D/classic-honeymoon/scuba-diving.jpg', name: 'Scuba Diving' }
             ]
         },
         {
@@ -38,7 +38,7 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-honeymoon/coral-bridge.png', name: 'Coral Island' }
+                { url: '/static/package-details/3N4D/classic-honeymoon/coral-bridge.png', name: 'Coral Island' }
             ]
         },
         {

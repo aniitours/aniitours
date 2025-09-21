@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/baratang-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/4N5D/baratang-trip/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/4N5D/baratang-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/4N5D/baratang-trip/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/baratang-trip/north-bay-island.png', name: 'North Bay Island' },
-                { url: './static/package-details/4N5D/baratang-trip/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/4N5D/baratang-trip/north-bay-island.png', name: 'North Bay Island' },
+                { url: '/static/package-details/4N5D/baratang-trip/ross-island.png', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/baratang-trip/baratang-island.png', name: 'Baratang Island' },
-                { url: './static/package-details/4N5D/baratang-trip/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/4N5D/baratang-trip/baratang-island.png', name: 'Baratang Island' },
+                { url: '/static/package-details/4N5D/baratang-trip/limestone-caves.png', name: 'Limestone caves' }
             ]
         },
         {
@@ -50,8 +50,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/baratang-trip/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/4N5D/baratang-trip/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {

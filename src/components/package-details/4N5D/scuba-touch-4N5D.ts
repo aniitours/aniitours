@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-touch/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/4N5D/scuba-touch/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/4N5D/scuba-touch/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: '/static/package-details/4N5D/scuba-touch/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' },
-                { url: './static/package-details/4N5D/family-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' },
+                { url: '/static/package-details/4N5D/family-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/4N5D/scuba-touch/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/4N5D/scuba-touch/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -51,8 +51,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
+                { url: '/static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {

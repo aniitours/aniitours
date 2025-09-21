@@ -11,8 +11,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
+                { url: '/static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-basic/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/4N5D/scuba-basic/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/family-special/bharatpur-beach.png', name: 'Bharatpur Beach' },
-                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/4N5D/family-special/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -50,8 +50,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
+                { url: '/static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
             ]
         },
         {
