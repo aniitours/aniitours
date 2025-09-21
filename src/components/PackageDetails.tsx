@@ -122,16 +122,19 @@ const PackageDetails = () => {
         {/* Prices Section */}
         <div className="my-8">
           <h3 className="font-poppins font-bold text-2xl leading-none mb-6">Package Prices</h3>
-          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-            {categories.map(category => (
-              <div key={category.code} className="border rounded-lg p-4 text-center shadow-md">
-                <h4 className="font-semibold text-lg">{category.name}</h4>
-                <p className="text-2xl font-bold text-blue-600 mt-2">
-                  ₹{packageInfo.prices[category.code]}
-                </p>
-                <p className="text-sm text-gray-500">per couple</p>
-              </div>
-            ))}
+          <div className="relative">
+            <div className="flex overflow-x-auto pb-4 -mx-2 sm:grid sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 sm:gap-6 sm:overflow-visible sm:mx-0">
+              {categories.map(category => (
+                <div key={category.code} className="flex-shrink-0 w-40 sm:w-auto mx-2 sm:mx-0 border rounded-lg p-4 text-center shadow-md">
+                  <h4 className="font-semibold text-base sm:text-lg">{category.name}</h4>
+                  <p className="text-xl sm:text-2xl font-bold text-blue-600 mt-1 sm:mt-2">
+                    ₹{packageInfo.prices[category.code]}
+                  </p>
+                  <p className="text-xs sm:text-sm text-gray-500">per couple</p>
+                </div>
+              ))}
+            </div>
+            <div className="absolute right-0 top-0 bottom-0 w-8 bg-gradient-to-l from-white pointer-events-none sm:hidden"></div>
           </div>
         </div>
 
