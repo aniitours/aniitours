@@ -37,7 +37,7 @@ const PackageList = () => {
   const navigate = useNavigate();
   const location = useLocation();
 
-  const [selectedCategory, setSelectedCategory] = useState<string>('premium');
+  const [selectedCategory, setSelectedCategory] = useState<string>('budget');
   const [selectedDuration, setSelectedDuration] = useState<string>('3N4D');
   const [filteredPackages, setFilteredPackages] = useState(packages);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
@@ -109,7 +109,7 @@ const PackageList = () => {
 
   const filterContent = (
     <div className="space-y-6 bg-white">
-      <div>
+      {/* <div>
         <h3 className="font-semibold mb-4 flex items-center gap-2">
           <Filter className="w-4 h-4" />
           <span>Category</span>
@@ -130,7 +130,7 @@ const PackageList = () => {
           ))}
         </div>
       </div>
-      <hr />
+      <hr /> */}
       <div>
         <h3 className="font-semibold mb-4 flex items-center gap-2">
           <Filter className="w-4 h-4" />
@@ -187,14 +187,14 @@ const PackageList = () => {
                             </p>
                           </div>
                           <div className="text-right flex-shrink-0 ml-4">
-                            <p className="text-base capitalize" style={{ color: getCategoryColor(pkg.category) }}>
-                              {pkg.category}
+                            <p className="text-base" style={{ color: getCategoryColor(pkg.category) }}>
+                              pricing starts @
                             </p>
                             <p className="text-xl font-semibold text-black">₹{pkg.price}</p>
                           </div>
                         </div>
                         <div className="flex justify-between items-end mt-4">
-                          <div className="flex gap-4">
+                          <div className="flex gap-4 mb-2">
                             {pkg.activities.map(activity => (
                               activityIcons[activity] && <img key={activity} src={activityIcons[activity]} alt={`${activity} icon`} className="w-5 h-5" />
                             ))}

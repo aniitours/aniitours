@@ -1,14 +1,14 @@
 export const itineraryData = {
     title: 'Adventure Andaman',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '3N Havelock',
     days: [
         {
             day: 1,
-            title: 'Arrival Cruise to Swarajdweep, Radhanagar beach, Kaalapathar Beach',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light and Sound Show',
             activities: [
-                'Arrive at Sri Vijayapuram, meet the representative, and take a cruise to Haddo Harbour. Check in at Swarajdweep hotel/resort.',
-                'Relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
-                "Enjoy a sunset visit to Kaalapathar Beach, where swimming is not advisable, and return to the resort to complete the day."
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the Cellular Jail, followed by a trip to Carbyns Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/adventure-andaman/cruise.png', name: 'Cruise' },
@@ -18,11 +18,11 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Cruise to Shaheed dweep (Neil) Check-in Coral Bridge and Sunset Point',
+            title: 'Swaraj Dweep Excursion, Radhanagar Beach',
             activities: [
-                'After Breakfast private cruise to world famous Shaheed dweep known for natural calm island.',
-                'After Check-in, you’ll be taken to natural coral bridge during low tide which showcases live fishes and corals along the way due to low tide.',
-                'Later return back to Sri Vijayapuram.'
+                'Morning: Take a cruise trip to Swaraj Dweep and visit Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Afternoon: Return cruise trip to the capital.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/adventure-andaman/swarajdweep.png', name: 'Swarajdweep' },
@@ -31,11 +31,11 @@ export const itineraryData = {
         },
         {
             day: 3,
-            title: 'Early morning trip to Baratang for Limestone caves',
+            title: 'Baratang Excursion, Limestone Caves',
             activities: [
-                'Early morning AC vehicle trip to Middle Andaman to visit Baratang Island. Travel through dense forests and tribal areas after check posts. Enjoy a fiber boat ride through mangrove creeks to the village starting point, followed by a walk to the Limestone Caves — a stunning calcite formation under the forest.',
-                'Visit the Mud Volcano, a unique natural attraction.',
-                'Return to Srivijayapuram via the same route.'
+                'Morning: Early morning vehicle trip to Baratang, followed by a fiber boat trip to the Limestone Caves.',
+                'Afternoon: After lunch, take a return trip to the capital, arriving by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/adventure-andaman/baratang-island.png', name: 'Baratang Island' },
@@ -46,8 +46,7 @@ export const itineraryData = {
             day: 4,
             title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

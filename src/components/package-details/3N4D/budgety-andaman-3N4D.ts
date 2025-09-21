@@ -4,12 +4,11 @@ export const itineraryData = {
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light and Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the Cellular Jail, followed by a trip to Carbyns Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/budgety-andaman/corbyns-cove-beach.png', name: 'Corbyn’s Cove Beach' },
@@ -18,11 +17,11 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Cruise to Swaraj dweep (Havelock) Radhanagar beach',
+            title: 'Swaraj Dweep Excursion & Radhanagar Beach',
             activities: [
-                'Proceed for a cruise to Swaraj Dweep (Havelock Island) from Haddo Harbour.',
-                'Radhanagar Beach: Spend the day at the beautiful Radhanagar Beach, known for its pristine sands and clear waters. staffs.Lunch can be done at nearby restaurants and hotels.',
-                'Evening: Return to Sri Vijayapuram by cruise.'
+                'Morning: Take a cruise trip to Swaraj Dweep and visit Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores..',
+                'Afternoon: Take a return cruise trip to the capital.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' }
@@ -30,11 +29,11 @@ export const itineraryData = {
         },
         {
             day: 3,
-            title: 'North Bay Island & Ross Island',
+            title: 'Ross Island & North Bay Island Trip',
             activities: [
-                'Early morning AC vehicle trip to Middle Andaman, passing through dense forests and tribal areas en route to Baratang Island.',
-                'Fiber boat ride through the mangrove creek, followed by a walk to explore the Limestone Caves and their calcite formations.',
-                'Visit the Mud Volcano and return to Srivijayapuram via the same route.'
+                'Morning: Take a boat trip from the watersports complex to Ross Island and North Bay Island.',
+                'Afternoon: After lunch, return to the capital by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/budgety-andaman/north-bay-island.png', name: 'North Bay Island' },
@@ -45,8 +44,7 @@ export const itineraryData = {
             day: 4,
             title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

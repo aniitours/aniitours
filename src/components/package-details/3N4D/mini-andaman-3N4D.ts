@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Mini Andaman',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '2N Portblair 1N Havelock',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Carbyn’s Cove Beach, Cellular jail, Light and sound',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/3N4D/mini-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,10 +17,11 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Cruise to Swaraj dweep (Havelock) Elephant Island',
+            title: 'Cruise to Swaraj dweep (Havelock), Elephant Island',
             activities: [
-                'After Breakfast please proceed to the scuba diving point to explore underwater natural beauty.',
-                'Later day at your leisure for spending your valuable time .you can also explore the dweep in yourway .'
+                'Morning: Take a cruise to Swaraj Dweep and check in at the resort.',
+                'Afternoon: Enjoy a boat trip to Elephant Island for water sports activities.',
+                'Evening: Return to the resort for a night stay at Swaraj Dweep.'
             ],
             images: [
                 { url: './static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
@@ -31,8 +31,9 @@ export const itineraryData = {
             day: 3,
             title: 'Cruise to Sri Vijayapuram. Check in Later Mini City Tour of Museums',
             activities: [
-                'After resort checkout, reach the jetty at least 30 minutes early to board the cruise back to Sri Vijayapuram. Relax at the hotel upon arrival.',
-                'Proceed for a vehicle trip to visit the Anthropological Museum, Samudrika Naval Museum, and Chatham Museum. Enjoy shopping for handicrafts and island souvenirs as an added experience.'
+                'Morning: Check out from the resort and take a return cruise to Srivijayapuram.',
+                'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
+                'Evening: Night stay at Srivijayapuram.'
             ],
             images: [
                 { url: './static/package-details/3N4D/mini-andaman/cruise.png', name: 'Cruise' },
@@ -43,8 +44,7 @@ export const itineraryData = {
             day: 4,
             title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

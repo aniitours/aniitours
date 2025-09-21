@@ -20,7 +20,7 @@ interface ItineraryData {
 
 const INCLUSIVE_CONTENT = [
   'The package offers a per-couple rate that includes comfortable accommodation with complimentary breakfast. An AC vehicle is provided for sightseeing as per the itinerary, along with cruise tickets and museum entry fees, ensuring a seamless and enjoyable experience.',
-];
+]; 
 
 const EXCLUSIVE_CONTENT = [
   'The vehicle is available only as specified in the itinerary and not for additional use. Any expenses arising from unforeseen circumstances, personal costs such as room service, special orders, or alcoholic and non-alcoholic beverages, are not included in the package.',
@@ -31,7 +31,7 @@ const PackageDetails = () => {
   const navigate = useNavigate();
 
   const [packageData, setPackageData] = useState<ItineraryData | null>(null);
-  const [packageInfo, setPackageInfo] = useState<{ title: string; images: string; } | null>(null);
+  const [packageInfo, setPackageInfo] = useState<{ title: string; images: string; prices: { [key: string]: string } } | null>(null);
   const [loading, setLoading] = useState(true);
   const [error, setError] = useState<string | null>(null);
 
@@ -118,9 +118,25 @@ const PackageDetails = () => {
           <MapPin className="w-5 h-5 text-gray-500" />
           {packageData.subtitle}
         </h2>
-        
+
+        {/* Prices Section */}
+        <div className="my-8">
+          <h3 className="font-poppins font-bold text-2xl leading-none mb-6">Package Prices</h3>
+          <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
+            {categories.map(category => (
+              <div key={category.code} className="border rounded-lg p-4 text-center shadow-md">
+                <h4 className="font-semibold text-lg">{category.name}</h4>
+                <p className="text-2xl font-bold text-blue-600 mt-2">
+                  ₹{packageInfo.prices[category.code]}
+                </p>
+                <p className="text-sm text-gray-500">per couple</p>
+              </div>
+            ))}
+          </div>
+        </div>
+
         <h3 className="font-poppins font-bold text-2xl leading-none mb-6">Itinerary</h3>
-        
+
         <div className="space-y-8 ml-4">
           {packageData.days.map((day: Day, index: number) => (
             <div key={index} className="relative pl-8 custom-dashed-border mb-8">

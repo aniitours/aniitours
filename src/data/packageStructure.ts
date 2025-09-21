@@ -17,7 +17,7 @@ export const packageStructure: { [key: string]: PackageDefinition[] } = {
     { title: 'Classic Honeymoon', images: './static/tour-packages/3N4D/3N4D-classic-honeymoon.png', prices: { premium: '46,800', deluxe: '42,500', standard: '38,900', economy: '36,600', budget: '31,700' } },
     { title: 'Adventure Andaman', images: './static/tour-packages/3N4D/3N4D-adventure-andaman.png', prices: { premium: '42,900', deluxe: '37,600', standard: '33,400', economy: '29,600', budget: '26,000' } },
     { title: 'Classic Short Trip', images: './static/tour-packages/3N4D/3N4D-classic-short-trip.png', prices: { premium: '40,800', deluxe: '36,600', standard: '33,000', economy: '30,600', budget: '25,700' } },
-    { title: 'Mini Andaman', images: './static/tour-packages/3N4D/3N4D-mini-andaman.png', prices: { premium: '39,600', deluxe: '39,600', standard: '39,600', economy: '28,100', budget: '24,000' } },
+    { title: 'Mini Andaman', images: './static/tour-packages/3N4D/3N4D-mini-andaman.png', prices: { premium: '39,600', deluxe: '34,800', standard: '31,200', economy: '28,100', budget: '24,000' } },
     { title: 'Budgety Andaman', images: './static/tour-packages/3N4D/3N4D-budgety-andaman.png', prices: { premium: '38,050', deluxe: '32,750', standard: '29,150', economy: '25,550', budget: '21,950' } },
   ],
   '4N5D': [

@@ -1,14 +1,14 @@
 export const itineraryData = {
     title: 'Classic Honeymoon',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '1N Portblair 2N Havelock',
     days: [
         {
             day: 1,
             title: 'Arrival Cruise to Swarajdweep, Radhanagar beach, Kaalapathar Beach',
             activities: [
-                'Arrive at Sri Vijayapuram, meet the representative, and take a cruise to Haddo Harbour. Check in at Swarajdweep hotel/resort.',
-                'Relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
-                "Enjoy a sunset visit to Kaalapathar Beach, where swimming is not advisable, and return to the resort to complete the day."
+                'Morning: Arrival at Srivijayapuram, followed by a cruise trip to Swaraj Dweep and check-in at the resort.',
+                'Afternoon: Relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Evening: Enjoy the sunset at Kaalapathar Beach and a night stay at the resort.'
             ],
             images: [
                 { url: './static/package-details/3N4D/classic-honeymoon/cruise.png', name: 'Cruise' },
@@ -20,8 +20,9 @@ export const itineraryData = {
             day: 2,
             title: 'Scuba diving at Swarajdweep',
             activities: [
-                'After Breakfast please proceed to the scuba diving point to explore underwater natural beauty.',
-                'Later day at your leisure for spending your valuable time .you can also explore the dweep in your way.'
+                'Morning: After breakfast please proceed to the scuba diving spot (for 2 Adults) to explore underwater natural beauty.',
+                'Later: The rest of the day is at your leisure for spending your valuable time. You can also explore the dweep in your own way.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
                 { url: './static/package-details/3N4D/classic-honeymoon/swarajdweep.png', name: 'Swarajdweep' },
@@ -32,11 +33,11 @@ export const itineraryData = {
             day: 3,
             title: 'Cruise to Shaheed dweep (Neil) Check-in Coral Bridge',
             activities: [
-                'After breakfast, take a morning private cruise to Shaheed Dweep, a serene island known for its natural beauty, and visit the Coral Bridge during low tide with a short walk—comfortable footwear recommended.',
-                'Return to Sri Vijayapuram and enjoy shopping before concluding the day.'
+                'Morning: Take a cruise trip to Shaheed Dweep and visit the Coral Bridge (comfortable footwear recommended).',
+                'Afternoon: Take a cruise trip back to Srivijayapuram.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-honeymoon/north-bay-island.png', name: 'North Bay Island' },
                 { url: './static/package-details/3N4D/classic-honeymoon/coral-bridge.png', name: 'Coral Island' }
             ]
         },
@@ -44,8 +45,7 @@ export const itineraryData = {
             day: 4,
             title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }
