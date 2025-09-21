@@ -11,9 +11,8 @@ export const itineraryData = {
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/adventure-andaman/cruise.png', name: 'Cruise' },
-                { url: './static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/3N4D/adventure-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular Jail' },
+                { url: './static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach' }
             ]
         },
         {
@@ -26,7 +25,7 @@ export const itineraryData = {
             ],
             images: [
                 { url: './static/package-details/3N4D/adventure-andaman/swarajdweep.png', name: 'Swarajdweep' },
-                { url: './static/package-details/3N4D/adventure-andaman/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: './static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {

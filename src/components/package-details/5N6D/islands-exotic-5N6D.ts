@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Islands Exotic',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '4N Portblair, 1N Neil',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/5N6D/islands-exotic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,11 +17,11 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Netaji Subhash Chandra dweep(Ross Island) Coral Island North Bay',
+            title: 'Ross Island & North Bay Island Trip',
             activities: [
-                'Depart by a small boat from the Watersports Complex to Netaji Subhash Chandra Dweep (Ross Island). Explore the ruins of the first British administrative settlement, including old colonies and churches.',
-                'Head to Coral Island (North Bay), a popular destination for watersports like snorkeling, scuba diving, parasailing, and boat rides. Visit the lighthouse for a picturesque view of the surroundings.',
-                'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
+                'Morning: Take a boat trip from the watersports complex to Ross Island and North Bay Island.',
+                'Afternoon: After your lunch, return to the capital by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/5N6D/islands-exotic/north-bay-island.png', name: 'North Bay Island' },
@@ -31,10 +30,11 @@ export const itineraryData = {
         },
         {
             day: 3,
-            title: 'Early morning trip to Baratang for Limestone caves',
+            title: 'Baratang Excursion & Limestone Caves',
             activities: [
-                'Early morning AC vehicle trip to Middle Andaman to visit Baratang Island. Travel through dense forests and tribal areas after check posts. Enjoy a fiber boat ride through mangrove creeks to the village starting point, followed by a walk to the Limestone Caves — a stunning calcite formation under the forest.',
-                'Visit the Mud Volcano, a unique natural attraction. Return to Srivijayapuram via the same route.'
+                'Morning: Early morning vehicle trip to Baratang, followed by a fiber boat trip to the Limestone Caves.',
+                'Afternoon: After your lunch, take a return trip to the capital, arriving by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/5N6D/islands-exotic/baratang-island.png', name: 'Baratang Island' },
@@ -43,32 +43,36 @@ export const itineraryData = {
         },
         {
             day: 4,
-            title: 'Swarajdeep (Havelock) radhanagar beach and Shaheed Dweep',
+            title: 'Swaraj Dweep, Radhanagar Beach & Neil Island',
             activities: [
-                'Cruise to Swarajdweep (Havelock) and visit the world-famous Radhanagar Beach, known for its white sandy shores and crystal-clear waters.',
-                'Visit Shaheed Dweep, then proceed to Laxmanpur Beach for a mesmerizing sunset before checking into your accommodation.'
+                'Morning: Take a cruise trip to Swaraj Dweep and relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Afternoon: Take a cruise trip to Neil Island and enjoy the sunset at Laxmanpur Beach.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/5N6D/honeymoon-adventure/radhanagar-beach.png', name: 'Radhanagar Beach' },
+                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 5,
-            title: 'Shaheed deep coral bridge and bharatpur beach',
+            title: 'Return to Srivijayapuram & City Tour',
             activities: [
-                'After breakfast, visit the natural Coral Bridge during low tide (wear ideal footwear for the walk), followed by a trip to the beautiful Bharatpur Beach.',
-                'Return to Srivijayapuram, with time for shopping before the day ends.'
+                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/5N6D/islands-exotic/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {
             day: 6,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

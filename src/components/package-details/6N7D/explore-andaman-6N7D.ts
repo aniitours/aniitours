@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Explore Andaman',
-    subtitle: '6 Nights 7 Days',
+    subtitle: '3N Portblair, 2N Havelock, 1N Neil',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,34 +17,39 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Swarajdeep (Havelock) paragliding and kaalapathar beach',
+            title: 'Swaraj Dweep, Elephant Island & Kaalapathar Beach',
             activities: [
-                'Cruise to Swarajdweep (Havelock), check in at the resort, then visit Elephant Beach to explore the white sandy shores and crystal-clear waters. Enjoy paragliding over the beautiful surroundings.',
-                'Return to the resort for rest, then visit Kaalapathar Beach for a sunset experience (not ideal for swimming).'
+                'Morning: Take a cruise trip to Swaraj Dweep and check in at the resort.',
+                'Late Morning: Enjoy a boat trip to Elephant Island Beach, known for its crystal-clear waters and vibrant marine life.',
+                'Afternoon: Experience paragliding at Elephant Island (subject to weather conditions).',
+                'Evening: Visit Kaalapathar Beach for a beautiful sunset. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' },
-                { url: './static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/6N7D/explore-andaman/elephant-island.png', name: 'Elephant Island' },
+                { url: './static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
+                { url: './static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' }
             ]
         },
         {
             day: 3,
-            title: 'Swarajdeep (Havelock) scubadiving and radhanagar beach',
+            title: 'Scuba Diving & Radhanagar Beach',
             activities: [
-                'Enjoy scuba diving in the cool waters, ideal for an early dive before the fishes go deeper.',
-                'Return to the resort for some rest and relaxation.',
-                'Rest at the hotel, then visit Radhanagar Beach, known as Asia’s best beach, with crystal-clear waters and beautiful blue-green surroundings.'
+                'Morning: Experience scuba diving (for 2 adults) at one of the renowned dive sites, exploring the vibrant marine life and coral reefs.',
+                'Afternoon: Visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Evening: Relax at the beach and enjoy the sunset. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: './static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' }
+                { url: './static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: './static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
             day: 4,
-            title: 'Swarajdeep Leisure Day',
+            title: 'Leisure Day at Havelock',
             activities: [
-                'Today you can spend your quality valuable time in the resort or you can explore inyour own way by visiting the market and bearby areas.'
+                'Full Day: Enjoy a day at your own leisure in Havelock. Relax at the beach, explore local markets, or try some water sports (at your own expense).',
+                'Evening: Night stay at the resort.'
             ],
             images: [
                 { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
@@ -53,31 +57,36 @@ export const itineraryData = {
         },
         {
             day: 5,
-            title: 'Shaheed deep coral bridge and laxmanpur beach',
+            title: 'Shaheed Dweep, Coral Bridge & Laxmanpur Beach',
             activities: [
-                'After breakfast, take a private morning cruise to Shaheed Dweep, known for its natural calmness. Visit the natural Coral Bridge during low tide (wear ideal footwear for the walk).',
-                'footwear. Later a visit to a beautiful sunset at laxmanpur. beach completes the days itinerary after drop to resort.'
+                'Morning: Take a cruise trip to Shaheed Dweep and check in at the resort.',
+                'Afternoon: Visit the natural Coral Bridge (comfortable footwear recommended).',
+                'Evening: Enjoy a beautiful sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur beach' },
+                { url: './static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
                 { url: './static/package-details/6N7D/explore-andaman/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
             day: 6,
-            title: 'Shaheeddweep Return and city tour',
+            title: 'Return to Srivijayapuram & City Tour',
             activities: [
-                'After checkout, return to the capital from the jetty.',
-                'Take rest and then enjoy a mini city tour and shopping in the city.'
+                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
-            images: []
+            images: [
+                { url: './static/package-details/6N7D/explore-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+            ]
         },
         {
             day: 7,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

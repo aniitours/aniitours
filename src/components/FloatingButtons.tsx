@@ -1,11 +1,13 @@
 import React, { useState, useEffect } from 'react';
 import { Phone } from 'lucide-react';
 import { FaWhatsapp } from 'react-icons/fa';
-import { useLocation } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 
 const FloatingButtons = () => {
-  const location = useLocation();
+  const navigate = useNavigate();
   const [isMobile, setIsMobile] = useState(false);
+  const [isVisible, setIsVisible] = useState(true);
+  const [lastScrollY, setLastScrollY] = useState(0);
 
   useEffect(() => {
     const checkIsMobile = () => {
@@ -13,13 +15,33 @@ const FloatingButtons = () => {
     };
     checkIsMobile();
     window.addEventListener('resize', checkIsMobile);
+    
+    // Only add scroll event listener for mobile
+    if (isMobile) {
+      const handleScroll = () => {
+        const currentScrollY = window.scrollY;
+        
+        // Show/hide based on scroll direction
+        if (currentScrollY > lastScrollY && currentScrollY > 100) {
+          // Scrolling down and past 100px
+          setIsVisible(false);
+        } else if (currentScrollY < lastScrollY) {
+          // Scrolling up
+          setIsVisible(true);
+        }
+        
+        setLastScrollY(currentScrollY);
+      };
+      
+      window.addEventListener('scroll', handleScroll, { passive: true });
+      return () => {
+        window.removeEventListener('resize', checkIsMobile);
+        window.removeEventListener('scroll', handleScroll);
+      };
+    }
+    
     return () => window.removeEventListener('resize', checkIsMobile);
-  }, []);
-
-  // On the tour packages page, we don't show these buttons.
-  if (location.pathname === '/tour-packages') {
-    return null;
-  }
+  }, [isMobile, lastScrollY]);
 
   const phoneNumber = '9932081208';
   const whatsappNumber = '9434265519';
@@ -30,13 +52,26 @@ const FloatingButtons = () => {
   const handlePhoneClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!isMobile) {
       e.preventDefault();
-      document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
+      const currentPath = window.location.hash.replace(/^#/, '');
+      if (!currentPath.startsWith('/tour-packages')) {
+        navigate('/tour-packages', { state: { scrollToContact: true } });
+      } else {
+        document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
+      }
     }
   };
 
+  // Hide on mobile for tour-packages page
+  const currentPath = window.location.hash.replace(/^#/, '');
+  if (isMobile && currentPath.startsWith('/tour-packages')) {
+    return null;
+  }
+
   return (
     <div
-      className="fixed bottom-8 right-8 flex flex-col gap-4 z-50"
+      className={`fixed bottom-8 right-8 flex flex-col gap-4 z-50 transition-opacity duration-300 ${
+        isMobile && !isVisible ? 'opacity-0 pointer-events-none' : 'opacity-100'
+      }`}
     >
       <a
         href={phoneHref}

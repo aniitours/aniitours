@@ -24,7 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' }
+                { url: './static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' },
+                { url: './static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {

@@ -18,14 +18,15 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Cruise to Shaheed dweep (Neil) Check-in Coral Bridge',
+            title: 'Cruise to Shaheed dweep (Neil), Coral Bridge',
             activities: [
-                'Morning: Take a cruise trip to Shaheed Dweep, check in at the resort, and visit the Coral Bridge.',
+                'After breakfast, take a morning private cruise to Shaheed Dweep, a serene island known for its natural beauty, and visit the Coral Bridge (comfortable footwear recommended).',
                 'Afternoon: Enjoy the sunset at Laxmanpur Beach.',
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' },
+                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {

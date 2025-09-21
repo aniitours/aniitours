@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Scuba Basic',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '2N Portblair, 2N Neil',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/4N5D/scuba-basic/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,43 +17,48 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Cruise to Shaheed dweep (Neil) Check-in Coral Bridge and Sunset Point',
+            title: 'Cruise to Shaheed Dweep, Coral Bridge & Laxmanpur Beach',
             activities: [
-                'After Breakfast private cruise to world famous Shaheeddweep known for natural calm island',
-                'After Check-in,  you’ll be taken to natural coral bridge during lowtide which showcases live fishes and corals along the way due to low tide. Later return back tosrivijayapuram.'
+                'Morning: Take a cruise trip to Shaheed Dweep, check in at the resort, and visit the Coral Bridge (comfortable footwear recommended).',
+                'Afternoon: Enjoy the sunset at Laxmanpur Beach.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' },
+                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 3,
-            title: 'Scuba diving at shaheed dweep and sunset point at laxmanpur beach',
+            title: 'Scuba Diving & Bharatpur Beach',
             activities: [
-                'After Breakfast please proceed to the scuba diving point to explore underwater natural beauty.',
-                'Later day at your leisure for spending your valuable time.  Later after relaxing proceed for the evening sunset.'
+                'Morning: After breakfast please proceed to the scuba diving spot (for 2 Adults) to explore underwater natural beauty.',
+                'Afternoon: Visit Bharatpur Beach.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
+                { url: './static/package-details/4N5D/family-special/bharatpur-beach.png', name: 'Bharatpur Beach' }
             ]
         },
         {
             day: 4,
-            title: 'Cruise to Swarajdweep Radhanagar beach and return',
+            title: 'Swaraj Dweep Excursion & Return',
             activities: [
-                'Arrival and cruise to Swaraj Dweep with assistance from our representative',
-                'Relax and visit Radhanagar Beach for swimming at secure locations before returning to Srivijayapuram.'
+                'Morning: Take a cruise trip to Swaraj Dweep and relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Afternoon: Later, return to Srivijayapuram.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/scuba-basic/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
             day: 5,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

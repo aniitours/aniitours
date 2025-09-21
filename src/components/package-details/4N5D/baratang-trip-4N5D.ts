@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Baratang Trip',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '4N Portblair',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/4N5D/baratang-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,11 +17,11 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'North Bay Island & Ross Island',
+            title: 'Ross Island & North Bay Island Trip',
             activities: [
-                'Early morning AC vehicle trip to Middle Andaman, passing through dense forests and tribal areas en route to Baratang Island.',
-                'Fiber boat ride through the mangrove creek, followed by a walk to explore the Limestone Caves and their calcite formations.',
-                'Visit the Mud Volcano and return to Srivijayapuram via the same route.'
+                'Morning: Take a boat trip from the watersports complex to Ross Island and North Bay Island.',
+                'Afternoon: After your lunch, return to the capital by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/4N5D/baratang-trip/north-bay-island.png', name: 'North Bay Island' },
@@ -31,10 +30,11 @@ export const itineraryData = {
         },
         {
             day: 3,
-            title: 'Early morning trip to Baratang for Limestone caves',
+            title: 'Baratang Excursion & Limestone Caves',
             activities: [
-                'Early morning AC vehicle trip to Middle Andaman to visit Baratang Island. Travel through dense forests and tribal areas after check posts. Enjoy a fiber boat ride through mangrove creeks to the village starting point, followed by a walk to the Limestone Caves — a stunning calcite formation under the forest.',
-                'Visit the Mud Volcano, a unique natural attraction. Return to Srivijayapuram via the same route.'
+                'Morning: Early morning vehicle trip to Baratang, followed by a fiber boat trip to the Limestone Caves.',
+                'Afternoon: After your lunch, take a return trip to the capital, arriving by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/4N5D/baratang-trip/baratang-island.png', name: 'Baratang Island' },
@@ -43,21 +43,22 @@ export const itineraryData = {
         },
         {
             day: 4,
-            title: 'Cruise to Swarajdweep Radhanagar beach and return',
+            title: 'Swaraj Dweep Excursion & Return',
             activities: [
-                'Arrival and cruise to Swaraj Dweep with assistance from our representative',
-                'Relax and visit Radhanagar Beach for swimming at secure locations before returning to Srivijayapuram.'
+                'Morning: Take a cruise trip to Swaraj Dweep and relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Afternoon: Later, return to Srivijayapuram.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/baratang-trip/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/baratang-trip/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
             day: 5,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

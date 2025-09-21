@@ -36,11 +36,11 @@ export const packageStructure: { [key: string]: PackageDefinition[] } = {
   ],
   '6N7D': [
     { title: 'Explore Andaman', images: './static/tour-packages/6N7D/6N7D-explore-andaman.png', prices: { premium: '87,200', deluxe: '79,700', standard: '71,500', economy: '67,100', budget: '57,100' } },
-    { title: 'South Andaman', images: './static/tour-packages/6N7D/6N7D-south-andaman.png', prices: { premium: '84,900', deluxe: '75,300', standard: '69,300', economy: '62,100', budget: '51,600' } },
+    { title: 'South Andaman', images: './static/tour-packages/6N7D/6N7D-south-andaman.png', prices: { premium: '84,900', deluxe: '75,300', standard: '69,300', economy: '62,100', budget: '53,600' } },
     { title: 'Couple Special', images: './static/tour-packages/6N7D/6N7D-couple-special.png', prices: { premium: '81,600', deluxe: '73,200', standard: '66,000', economy: '61,200', budget: '51,600' } },
     { title: 'Geographic Discovery', images: './static/tour-packages/6N7D/6N7D-geographic-discovery.png', prices: { premium: '77,000', deluxe: '67,400', standard: '61,400', economy: '54,200', budget: '45,800' } },
     { title: 'Discover Andaman', images: './static/tour-packages/6N7D/6N7D-discover-andaman.png', prices: { premium: '76,500', deluxe: '67,000', standard: '59,700', economy: '53,700', budget: '45,300' } },
-    { title: 'Honeymoon Mesmerize', images: './static/tour-packages/6N7D/6N7D-honeymoon-mesmerize.png', prices: { premium: '75,950', deluxe: '67,550', standard: '62,750', economy: '55,550', budget: '45,950' } },
+    { title: 'Honeymoon Mesmerize', images: './static/tour-packages/6N7D/6N7D-honeymoon-mesmerize.png', prices: { premium: '75,950', deluxe: '67,550', standard: '62,950', economy: '55,550', budget: '45,950' } },
   ]
 };
 

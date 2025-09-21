@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Family Special',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '3N Portblair, 1N Havelock',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/4N5D/family-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,10 +17,11 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Cruise to Swaraj dweep (Havelock) Radhanagar beach Kaalapathar Beach',
+            title: 'Swaraj Dweep, Radhanagar Beach & Kaalapathar Beach',
             activities: [
-                'Cruise to Swaraj Dweep from Haddo Harbour and visit the world-famous, Blue Flag-certified Radhanagar Beach.',
-                'Enjoy scuba diving and explore the serene blue waters and white sandy beach until the afternoon.'
+                'Morning: Take a cruise trip to Swaraj Dweep, check in at the resort, and relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Afternoon: Enjoy a sunset visit to Kaalapathar Beach.',
+                'Evening: Night stay at Swarajdweep.'
             ],
             images: [
                 { url: './static/package-details/4N5D/family-special/cruise.png', name: 'Cruise' },
@@ -31,21 +31,24 @@ export const itineraryData = {
         },
         {
             day: 3,
-            title: 'Cruise to Shaheed dweep (Neil) Check-in Coral Bridge and Sunset Point',
+            title: 'Cruise to Shaheed Dweep, Coral Bridge & Return',
             activities: [
-                'After Breakfast private cruise to world famous Shaheeddweep known for natural calm island',
-                'After Check-in,  you’ll be taken to natural coral bridge during lowtide which showcases live fishes and corals along the way due to low tide. Later return back tosrivijayapuram.'
+                'Morning: Take a cruise trip to Shaheed Dweep and visit the Coral Bridge (comfortable footwear recommended).',
+                'Afternoon: Take a cruise trip back to Srivijayapuram.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/4N5D/family-special/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/family-special/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
             ]
         },
         {
             day: 4,
-            title: 'Early morning trip to Baratang for Limestone caves',
+            title: 'Baratang Excursion & Limestone Caves',
             activities: [
-                'Depart for an adventurous trip to Baratang Island via AC vehicle, passing through dense forests and tribal areas. Enjoy a fiber boat ride through a mangrove creek to reach the Limestone Caves, a natural calcite formation deep within the forest.',
-                'Visit the Mud Volcano before returning to Srivijayapuram via the same route.'
+                'Morning: Early morning vehicle trip to Baratang, followed by a fiber boat trip to the Limestone Caves.',
+                'Afternoon: After your lunch, take a return trip to the capital, arriving by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/4N5D/family-special/baratang-island.png', name: 'Baratang Island' },
@@ -54,10 +57,9 @@ export const itineraryData = {
         },
         {
             day: 5,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

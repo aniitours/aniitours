@@ -1,15 +1,14 @@
 export const itineraryData = {
     title: 'Honeymoon Mesmerize',
-    subtitle: '6 Nights 7 Days',
+    subtitle: '2N Portblair, 1N Havelock, 3N Neil',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/6N7D/honeymoon-mesmerize/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
@@ -18,44 +17,53 @@ export const itineraryData = {
         },
         {
             day: 2,
-            title: 'Shaheed deep coral bridge and laxmanpur beach',
+            title: 'Shaheed Dweep, Coral Bridge & Laxmanpur Beach',
             activities: [
-                'After breakfast, take a private morning cruise to Shaheed Dweep, known for its natural calmness. Visit the natural Coral Bridge during low tide (wear ideal footwear for the walk).',
-                'footwear. Later a visit to a beautiful sunset at laxmanpur. beach completes the days itinerary after drop to resort.'
+                'Morning: Take a cruise trip to Shaheed Dweep and check in at the resort.',
+                'Afternoon: Visit the natural Coral Bridge (comfortable footwear recommended).',
+                'Evening: Enjoy a romantic sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur beach' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/coral-bridge.png', name: 'Coral Bridge' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 3,
-            title: 'Bharatpur Beach visit after scuba diving',
+            title: 'Scuba Diving & Beaches of Neil Island',
             activities: [
-                'Proceed to the scuba diving point for an exciting water activity.',
-                'Enjoy other water activities at the beautiful Bharatpur Beach.'
+                'Morning: Experience scuba diving (for 2 adults) at one of the renowned dive sites, exploring the vibrant marine life and coral reefs.',
+                'Afternoon: Visit Bharatpur Beach, known for its water sports activities and vibrant marine life.',
+                'Evening: Explore Sitapur Beach and Ramnagar Beach. Enjoy the sunset and romantic beach walk. Night stay at the resort.'
             ],
             images: [
                 { url: './static/package-details/6N7D/honeymoon-mesmerize/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: './static/package-details/6N7D/couple-special/sitapur-beach.png', name: 'Sitapur Beach' },
+                { url: './static/package-details/6N7D/couple-special/ramnagar-beach.png', name: 'Ramnagar Beach' }
             ]
         },
         {
             day: 4,
-            title: 'Day at leisure',
+            title: 'Leisure Day at Neil Island',
             activities: [
-                'Enjoy a relaxing stay at the resort and spend your valuable time unwinding.',
-                'Explore the island at your own pace, visiting the local market and beaches.'
+                'Full Day: Enjoy a day at your own leisure in Neil Island. Relax at the beach, explore local markets, or enjoy water sports (at your own expense).',
+                'Evening: Romantic dinner by the beach (on your own). Night stay at the resort.'
             ],
-            images: []
+            images: [
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/radhanagar-beach.png', name: 'Radhanagar Beach' }
+            ]
         },
         {
             day: 5,
-            title: 'Swarajdeep (Havelock) radhanagar beach and kaalapathar beach',
+            title: 'Swaraj Dweep & Radhanagar Beach',
             activities: [
-                'Cruise to Swarajdweep, check in at the resort, and visit Radhanagar Beach to experience its white sandy shores and crystal-clear waters. Engage in water sports activities like snorkeling if desired.',
-                'return to the resort for rest and relaxation.',
-                'Visit Kaalapathar Beach for a beautiful sunset (not ideal for swimming).'
+                'Morning: Take a cruise trip to Swaraj Dweep and check in at the resort.',
+                'Afternoon: Visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Evening: Enjoy a romantic sunset at Kaalapathar Beach. Night stay at Swarajdweep.'
             ],
             images: [
                 { url: './static/package-details/6N7D/honeymoon-mesmerize/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
@@ -65,20 +73,22 @@ export const itineraryData = {
         },
         {
             day: 6,
-            title: 'Return back to Srivijayapuram',
+            title: 'Return to Srivijayapuram & City Tour',
             activities: [
-                'After checkout, return to the capital from the jetty.',
-                'Take rest and then enjoy shopping in the city.'
+                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
+                'Evening: Romantic dinner at a local restaurant (on your own). Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/honeymoon-mesmerize/srivijayapuram.png', name: 'Srivijayapuram' }
+                { url: './static/package-details/6N7D/honeymoon-mesmerize/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {
             day: 7,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
+                'Morning: Airport drop with beautiful memories.',
                 'Airport Drop: Transfer to the airport for your departure.'
             ],
             images: []

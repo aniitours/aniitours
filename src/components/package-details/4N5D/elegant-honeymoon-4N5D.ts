@@ -1,60 +1,64 @@
 export const itineraryData = {
     title: 'Elegant Honeymoon',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '1N Portblair, 2N Havelock, 1N Neil',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cruise to Swaraj Dweep, Elephant Island Beach',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram, take a cruise trip to Swaraj Dweep, and check in at the resort.',
+                'Afternoon: Visit Elephant Island Beach for kayaking.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/elegant-honeymoon/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: './static/package-details/4N5D/elegant-honeymoon/cellular-jail.png', name: 'Cellular jail' }
+                { url: './static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
             ]
         },
         {
             day: 2,
-            title: 'Cruise to Swarajdweep (Havelock) – Radhanagar Beach & Kaalapathar Beach',
+            title: 'Scuba Diving & Radhanagar Beach',
             activities: [
-                'Cruise to Swaraj Dweep from Haddo Harbour and visit the world-famous, Blue Flag-certified Radhanagar Beach.',
-                'Later visit kaalapathar beach for sunset..'
+                'Morning: After breakfast please proceed to the scuba diving spot (for 2 Adults) to explore underwater natural beauty.',
+                'Afternoon: Relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' }
-            ]
-        },
-        {
-            day: 3,
-            title: 'Scuba diving and radhanagar beach',
-            activities: [
-                'Cruise to Swaraj Dweep from Haddo Harbour and visit the world-famous, Blue Flag-certified Radhanagar Beach.',
-                'Enjoy scuba diving and explore the serene blue waters and white sandy beach until the afternoon.'
-            ],
-            images: [
+                { url: './static/package-details/4N5D/scuba-basic/scuba-diving.jpg', name: 'Scuba Diving' },
                 { url: './static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
             ]
         },
         {
-            day: 4,
-            title: 'Cruise to Shaheed dweep (Neil) Check-in Coral Bridge and Sunset Point',
+            day: 3,
+            title: 'Cruise to Shaheed Dweep, Bharatpur Beach & Laxmanpur Beach',
             activities: [
-                'After Breakfast private cruise to world famous Shaheeddweep known for natural calm island',
-                'After Check-in, you’ll be taken to natural coral bridge during lowtide which showcases live fishes and corals along the way due to low tide. Later return back tosrivijayapuram.'
+                'Morning: Take a cruise trip to Shaheed Dweep, check in at the resort, and visit Bharatpur Beach.',
+                'Afternoon: Enjoy the sunset at Laxmanpur Beach.',
+                'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/4N5D/family-special/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: './static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+            ]
+        },
+        {
+            day: 4,
+            title: 'Return to Srivijayapuram, City Tour',
+            activities: [
+                'Morning: Take a cruise trip to Srivijayapuram and check in at the hotel.',
+                'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
+                'Evening: Night stay at the hotel.'
+            ],
+            images: [
+                { url: './static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
             ]
         },
         {
             day: 5,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

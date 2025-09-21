@@ -1,89 +1,93 @@
 export const itineraryData = {
     title: 'Discover Andaman',
-    subtitle: '6 Nights 7 Days',
+    subtitle: '4N Portblair, 1N Havelock, 1N Neil',
     days: [
         {
             day: 1,
-            title: 'Arrival Carbyn’s Cove Beach Cellular jail Light and sound',
+            title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning/Afternoon: Arrive at Sri Vijayapuram',
-                'Carbyn\'s Cove Beach: Head to Carbyn\'s Cove Beach for some relaxation by the sea.',
-                'Cellular Jail: Visit the historic Cellular Jail, also known as "Kala Pani," which is a significant site in India\'s struggle for independence.',
-                'Light and Sound Show: In the evening, attend the Light and Sound Show at Cellular Jail to learn about the history of the freedom struggle.'
+                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
+                'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/discover-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
+                { url: './static/package-details/6N7D/discover-andaman/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach' },
                 { url: './static/package-details/6N7D/discover-andaman/cellular-jail.png', name: 'Cellular jail' }
             ]
         },
         {
             day: 2,
-            title: 'Cruise to Swarajdweep (Havelock) – Radhanagar Beach & Kaalapathar Beach',
+            title: 'Swaraj Dweep, Radhanagar Beach & Kaalapathar Beach',
             activities: [
-                'Cruise to Swaraj Dweep from Haddo Harbour and visit the world-famous, Blue Flag-certified Radhanagar Beach.',
-                'Later visit kaalapathar beach for sunset..'
+                'Morning: Take a cruise trip to Swaraj Dweep and check in at the resort.',
+                'Afternoon: Visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
+                'Evening: Enjoy a sunset visit to Kaalapathar Beach. Night stay at Swarajdweep.'
             ],
             images: [
+                { url: './static/package-details/6N7D/discover-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' },
                 { url: './static/package-details/6N7D/discover-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: './static/package-details/6N7D/discover-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: './static/package-details/6N7D/discover-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: './static/package-details/6N7D/discover-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
             ]
         },
         {
             day: 3,
-            title: 'Bharatpur Beach visit and sitapur beach Laxmanpur beach',
+            title: 'Shaheed Dweep, Coral Bridge & Laxmanpur Beach',
             activities: [
-                'Visit the beautiful Bharatpur Beach and Sitapur Beach at Shaheed Dweep, where you can enjoy water activities.',
-                'Relax and explore the beaches, enjoying the serene surroundings.',
-                'Head to Laxmanpur Beach for a stunning sunset before returning to the resort.'
+                'Morning: Take a cruise trip to Shaheed Dweep and check in at the resort.',
+                'Afternoon: Visit the Coral Bridge (comfortable footwear recommended) and Bharatpur Beach.',
+                'Evening: Enjoy the sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: './static/package-details/6N7D/discover-andaman/bharatpur-beach.png', name: 'Bharatpur beach' },
-                { url: './static/package-details/6N7D/discover-andaman/sitapur-beach.png', name: 'Sitapur beach' }
+                { url: './static/package-details/6N7D/discover-andaman/swarajdweep.png', name: 'Shaheed Dweep' },
+                { url: './static/package-details/6N7D/discover-andaman/coral-bridge.png', name: 'Coral Bridge' },
+                { url: './static/package-details/6N7D/discover-andaman/bharatpur-beach.png', name: 'Bharatpur Beach' },
+                { url: './static/package-details/6N7D/couple-special/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 4,
-            title: 'Shaheed deep coral bridge and srivijayapuram',
+            title: 'Return to Srivijayapuram & City Tour',
             activities: [
-                'After breakfast, take a private morning cruise to Shaheed Dweep, known for its natural calmness. Visit the natural Coral Bridge during low tide (wear ideal footwear for the walk).',
-                'Return to Srivijayapuram, with time for shopping before the day ends.'
+                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/discover-andaman/coral-bridge.png', name: 'Coral Bridge' }
+                { url: './static/package-details/6N7D/couple-special/srivijayapuram.png', name: 'Srivijayapuram' },
+                { url: './static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
             ]
         },
         {
             day: 5,
-            title: 'Early morning trip to Baratang for Limestone caves',
+            title: 'Baratang Excursion & Limestone Caves',
             activities: [
-                'Early morning trip by AC vehicle to Middle Andaman, visiting Baratang Island. Journey through dense forests and tribal areas for an enchanting experience. Fiber boat ride through a mangrove creek to the village starting point.',
-                'Walk to the Limestone Caves, a unique calcite formation under the forest. Visit the Mud Volcano. Return to Srivijayapuram via the same route.'
+                'Morning: Early morning vehicle trip to Baratang, followed by a fiber boat trip to the Limestone Caves.',
+                'Afternoon: After your lunch, take a return trip to the capital, arriving by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
                 { url: './static/package-details/6N7D/discover-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: './static/package-details/6N7D/discover-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: './static/package-details/6N7D/discover-andaman/limestone-caves.png', name: 'Limestone Caves' }
             ]
         },
         {
             day: 6,
-            title: 'Netaji Subhash Chandra dweep(Ross Island) Coral Island North Bay',
+            title: 'Ross Island & North Bay Island Trip',
             activities: [
-                'Depart by a small boat from the Watersports Complex to Netaji Subhash Chandra Dweep (Ross Island). Explore the ruins of the first British administrative settlement, including old colonies and churches.',
-                'Head to Coral Island (North Bay), a popular destination for watersports like snorkeling, scuba diving, parasailing, and boat rides. Visit the lighthouse for a picturesque view of the surroundings.',
-                'By 4 pm, return to the Watersports Complex and head back to your hotel for the evening stay.'
+                'Morning: Take a boat trip from the watersports complex to Ross Island and North Bay Island.',
+                'Afternoon: After your lunch, return to the capital by 4 PM for some shopping.',
+                'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: './static/package-details/6N7D/discover-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: './static/package-details/6N7D/discover-andaman/ross-island.png', name: 'Ross Island' }
+                { url: './static/package-details/6N7D/discover-andaman/ross-island.png', name: 'Ross Island' },
+                { url: './static/package-details/6N7D/discover-andaman/north-bay-island.png', name: 'North Bay Island' }
             ]
         },
         {
             day: 7,
-            title: 'Airport Drop with Sweet blessed memories',
+            title: 'Departure',
             activities: [
-                'Morning: Relax and pack up.',
-                'Airport Drop: Transfer to the airport for your departure.'
+                'Morning: Airport drop with beautiful memories.'
             ],
             images: []
         }

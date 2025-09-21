@@ -24,7 +24,8 @@ export const itineraryData = {
                 'Evening: Return to the resort for a night stay at Swaraj Dweep.'
             ],
             images: [
-                { url: './static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: './static/package-details/3N4D/mini-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
+                { url: './static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
             ]
         },
         {

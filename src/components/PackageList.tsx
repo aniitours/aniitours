@@ -44,6 +44,21 @@ const PackageList = () => {
 
 
 
+  // Handle scroll to contact form when navigating from other pages
+  useEffect(() => {
+    if (location.state?.scrollToContact) {
+      const timer = setTimeout(() => {
+        const contactForm = document.getElementById('contact-form');
+        if (contactForm) {
+          contactForm.scrollIntoView({ behavior: 'smooth' });
+          // Clear the state to prevent scrolling again on re-renders
+          window.history.replaceState({}, document.title);
+        }
+      }, 100); // Small delay to ensure the page has rendered
+      return () => clearTimeout(timer);
+    }
+  }, [location.state]);
+
   useEffect(() => {
     const params = new URLSearchParams(location.search);
     const duration = params.get('duration');
