@@ -52,8 +52,8 @@ const FloatingButtons = () => {
   const handlePhoneClick = (e: React.MouseEvent<HTMLAnchorElement>) => {
     if (!isMobile) {
       e.preventDefault();
-      const currentPath = window.location.hash.replace(/^#/, '');
-      if (!currentPath.startsWith('/tour-packages')) {
+      const currentPath = window.location.pathname;
+      if (currentPath !== '/tour-packages') {
         navigate('/tour-packages', { state: { scrollToContact: true } });
       } else {
         document.getElementById('contact-form')?.scrollIntoView({ behavior: 'smooth' });
@@ -62,8 +62,8 @@ const FloatingButtons = () => {
   };
 
   // Hide on mobile for tour-packages page
-  const currentPath = window.location.hash.replace(/^#/, '');
-  if (isMobile && currentPath.startsWith('/tour-packages')) {
+  const currentPath = window.location.pathname;
+  if (isMobile && currentPath === '/tour-packages') {
     return null;
   }
 

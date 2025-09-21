@@ -41,6 +41,22 @@ const PackageList = () => {
   const [filteredPackages, setFilteredPackages] = useState(packages);
   const [isFilterOpen, setIsFilterOpen] = useState(false);
 
+  // Prevent body scrolling when filter is open
+  useEffect(() => {
+    if (isFilterOpen) {
+      document.body.style.overflow = 'hidden';
+      document.body.style.paddingRight = '0px'; // Reset any padding that might be added by scrollbar
+    } else {
+      document.body.style.overflow = '';
+    }
+    
+    // Cleanup function to reset styles when component unmounts or filter closes
+    return () => {
+      document.body.style.overflow = '';
+      document.body.style.paddingRight = '';
+    };
+  }, [isFilterOpen]);
+
 
 
   // Handle scroll to contact form when navigating from other pages
@@ -197,7 +213,7 @@ const PackageList = () => {
                             <span className="text-sm text-gray-500">{pkg.durationAlias}</span>
                             <h3 className="text-xl font-semibold">{pkg.title}</h3>
                             <p className="text-sm text-gray-600">
-                              {pkg.locations.join(' - ')}
+                              {pkg.subtitle}
                             </p>
                           </div>
                           <div className="text-right flex-shrink-0 ml-4">
@@ -207,18 +223,20 @@ const PackageList = () => {
                             <p className="text-xl font-semibold text-black">₹{pkg.price}</p>
                           </div>
                         </div>
-                        <div className="flex justify-between items-end mt-4">
-                          <div className="flex gap-4 mb-2">
-                            {pkg.activities.map(activity => (
-                              activityIcons[activity] && <img key={activity} src={activityIcons[activity]} alt={`${activity} icon`} className="w-5 h-5" />
-                            ))}
+                        <div className="mt-4 pt-4 border-t border-gray-200 md:border-0 md:pt-0">
+                          <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-4">
+                            <div className="hidden md:flex gap-4">
+                              {pkg.activities.map(activity => (
+                                activityIcons[activity] && <img key={activity} src={activityIcons[activity]} alt={`${activity} icon`} className="w-5 h-5" />
+                              ))}
+                            </div>
+                            <button 
+                              className="w-full md:w-auto p-0 md:px-4 md:py-2 md:border md:border-blue-600 text-blue-600 md:rounded-lg font-medium md:hover:bg-blue-600 md:hover:text-white transition-colors text-center" 
+                              onClick={() => navigate(`/package/${pkg.id}`)}
+                            >
+                              View Details →
+                            </button>
                           </div>
-                          <button 
-                            className="p-0 md:px-4 md:py-2 md:border md:border-blue-600 text-blue-600 md:rounded-lg font-medium md:hover:bg-blue-600 md:hover:text-white transition-colors" 
-                            onClick={() => navigate(`/package/${pkg.id}`)}
-                          >
-                            View Detail →
-                          </button>
                         </div>
                       </div>
                     </div>

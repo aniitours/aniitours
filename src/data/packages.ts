@@ -10,6 +10,7 @@ const generatedPackages = Object.entries(packageStructure).flatMap(([duration, p
         duration,
         durationAlias: durationDetails[duration].alias,
         title: pkg.title,
+        subtitle: pkg.subtitle,
         images: pkg.images,
         price: pkg.prices[category.code] || 'N/A',
         locations: ['Portblair', 'Havelock', 'Neil'], // Placeholder locations
