@@ -12,7 +12,7 @@ export const itineraryData = {
             ],
             images: [
                 { url: './static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular Jail' },
-                { url: './static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach' }
+                { url: './static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach ' }
             ]
         },
         {
