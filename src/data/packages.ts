@@ -14,7 +14,7 @@ const generatedPackages = Object.entries(packageStructure).flatMap(([duration, p
         images: pkg.images,
         price: pkg.prices[category.code] || 'N/A',
         prices: pkg.prices, // Include the entire prices object
-        locations: ['Portblair', 'Havelock', 'Neil'], // Placeholder locations
+        locations: ['Sri Vijaya Puram', 'Swaraj Dweep', 'Shaheed Dweep'], // Placeholder locations
         activities: ['nature', 'beach', 'water', 'romantic'] // Placeholder activities
       };
     });

@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Explore Andaman',
-    subtitle: '3N Portblair, 2N Havelock, 1N Neil',
+    subtitle: '3N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -25,10 +25,10 @@ export const itineraryData = {
                 'Evening: Visit Kaalapathar Beach for a beautiful sunset. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/6N7D/explore-andaman/elephant-island.png', name: 'Elephant Island' },
-                { url: '/static/package-details/6N7D/explore-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/paragliding.png', name: 'Paragliding' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/elephantbeach.png', name: 'Elephant Island' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' },
+                { url: '/static/package-details/paragliding.jpg', name: 'Paragliding' }
             ]
         },
         {
@@ -40,19 +40,19 @@ export const itineraryData = {
                 'Evening: Relax at the beach and enjoy the sunset. Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/6N7D/explore-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/scuba.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {
             day: 4,
-            title: 'Leisure Day at Havelock',
+            title: 'Leisure Day at Swaraj Dweep',
             activities: [
-                'Full Day: Enjoy a day at your own leisure in Havelock. Relax at the beach, explore local markets, or try some water sports (at your own expense).',
+                'Full Day: Enjoy a day at your own leisure in Swaraj Dweep. Relax at the beach, explore local markets, or try some water sports (at your own expense).',
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Swaraj Dweep' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -64,22 +64,22 @@ export const itineraryData = {
                 'Evening: Enjoy a beautiful sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/coral-bridge.png', name: 'Coral Bridge' }
+                { url: '/static/package-details/shaheedweep.jpg', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' },
+                { url: '/static/package-details/laxmanpur-sunset.jpg', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 6,
-            title: 'Return to Srivijayapuram & City Tour',
+            title: 'Return to Sri Vijaya Puram & City Tour',
             activities: [
-                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Morning: Take a cruise back to Sri Vijaya Puram and check in at the hotel.',
                 'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/srivijayapuram.jpeg', name: 'Sri Vijaya Puram' },
+                { url: '/static/package-details/museum.avif', name: 'Anthropological Museum' }
             ]
         },
         {

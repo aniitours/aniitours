@@ -254,8 +254,8 @@ const PackageList = () => {
           <div className="container max-w-7xl mx-auto px-4">
             <div className="grid md:grid-cols-2 gap-12 items-center">
               <div className='text-center'>
-                <h2 className="text-3xl font-bold text-navy-900 mb-4">We Make<br />World Travel Easy</h2>
-                <p className="text-gray-600 mb-6 max-w-md mx-auto">
+                <h2 className="text-3xl font-bold text-navy-900 mb-4">We Make<br />Andaman Travel Easy</h2>
+                <p className="text-gray-600 mb-6 max-w-md mx-auto"> 
                   Traveling under your own power and at your own pace, you'll connect more meaningfully with your destination and have more fun!
                 </p>
                 <img 

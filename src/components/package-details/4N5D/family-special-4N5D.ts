@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Family Special',
-    subtitle: '3N Portblair, 1N Havelock',
+    subtitle: '3N Sri Vijaya Puram, 1N Swaraj Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/4N5D/family-special/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular Jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/cruise.png', name: 'Cruise' },
-                { url: '/static/package-details/4N5D/family-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/4N5D/family-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/cruise.jpg', name: 'Cruise' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -34,12 +34,12 @@ export const itineraryData = {
             title: 'Cruise to Shaheed Dweep, Coral Bridge & Return',
             activities: [
                 'Morning: Take a cruise trip to Shaheed Dweep and visit the Coral Bridge (comfortable footwear recommended).',
-                'Afternoon: Take a cruise trip back to Srivijayapuram.',
+                'Afternoon: Take a cruise trip back to Sri Vijaya Puram.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' }
             ]
         },
         {
@@ -51,8 +51,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/4N5D/family-special/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/baratang.png', name: 'Baratang Island' },
+                { url: '/static/package-details/limestone-cave.jpg', name: 'Limestone Caves' }
             ]
         },
         {

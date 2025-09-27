@@ -9,20 +9,20 @@ const services = [
   {
     icon: trees,
     color: 'bg-[#DFEBE0]',
-    title: 'Guided Tours',
-    description: 'Explore the Andaman Islands with our expertly guided tours just for you!'
+    title: 'Curated Trips',
+    description: 'Explore the Andaman Islands with our expertly curated tours just for you!'
   },
   {
     icon: binocular,
     color: 'bg-[#f5884933]',
     title: 'Sight Seeing',
-    description: 'Discover the Andaman Islands with our guided sightseeing tours!'
+    description: 'Discover the Andaman Islands with our expert-led sightseeing tours!'
   },
   {
     icon: swim,
     color: 'bg-[#4DEDED26]',
     title: 'Adventures',
-    description: 'Dive into adventure with our guided tour, featuring thrilling water activities!'
+    description: 'Dive into adventure with our crafted tour, featuring thrilling water activities!'
   },
   {
     icon: sleep,

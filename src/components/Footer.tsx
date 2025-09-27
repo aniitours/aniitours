@@ -20,7 +20,7 @@ export function Footer() {
             <div className="text-xl font-poppins text-[#204F69] basis-[10%]">ANII Tours</div>
           </div>
             <p className="text-gray-400">
-            C-101/2, Near Cottage Industries, Middle Point, Port Blair - 744101
+            Andaman Nicobar India International Tours (ANII Tours), C-101/2, Near Cottage Industries, Middle Point, Port Blair - 744101
             </p>
           </div>
           

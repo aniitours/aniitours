@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Honeymoon Trip',
-    subtitle: '3N Portblair, 1N Havelock, 1N Neil',
+    subtitle: '3N Sri Vijaya Puram, 1N Swaraj Dweep, 1N Shaheed Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' },
+                { url: '/static/package-details/rossisland.jpg', name: 'Ross Island' }
             ]
         },
         {
@@ -37,9 +37,9 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/5N6D/honeymoon-adventure/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -51,22 +51,22 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: '/static/package-details/5N6D/honeymoon-trip/neil-coral-bridge.png', name: 'Coral Bridge' },
-                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/shaheedweep.jpg', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' },
+                { url: '/static/package-details/laxmanpur-sunset.jpg', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 5,
-            title: 'Return to Srivijayapuram & City Tour',
+            title: 'Return to Sri Vijaya Puram & City Tour',
             activities: [
-                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Morning: Take a cruise back to Sri Vijaya Puram and check in at the hotel.',
                 'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-trip/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/museum.avif', name: 'Museum' }
             ]
         },
         {

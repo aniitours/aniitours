@@ -13,12 +13,12 @@ const testimonials = [
     image: drMani,
   },
   {
-    text: "Discovered Andaman holidays with family. Beautifully done even with Havelock power cuts.",
+    text: "Discovered Andaman holidays with family. Beautifully done even with Swaraj Dweep power cuts.",
     author: "Shobana and family",
     image: shobana,
   },
   {
-    text: "We two families and children covered Havelock Neil and Baratang. Havelock food costly. Otherwise good time.",
+    text: "We two families and children covered Swaraj Dweep Shaheed Dweep and Baratang. Swaraj Dweep food costly. Otherwise good time.",
     author: "Gopal",
     image: gopal,
   },

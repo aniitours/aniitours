@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Adventure Andaman',
-    subtitle: '3N Havelock',
+    subtitle: '2N Sri Vijaya Puram 1N Swaraj Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light and Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the Cellular Jail, followed by a trip to Carbyns Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular Jail' },
-                { url: '/static/package-details/6N7D/explore-andaman/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach ' }
+                { url: '/static/package-details/cellular-jail-night.jpg', name: 'Cellular Jail' },
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/adventure-andaman/swarajdweep.png', name: 'Swarajdweep' },
-                { url: '/static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swarajdweep' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/adventure-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/3N4D/adventure-andaman/limestone-caves.png', name: 'Limestone Caves' }
+                { url: '/static/package-details/baratang.png', name: 'Baratang Island' },
+                { url: '/static/package-details/limestone-cave.jpg', name: 'Limestone Caves' }
             ]
         },
         {

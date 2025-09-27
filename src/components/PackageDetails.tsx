@@ -161,10 +161,16 @@ const PackageDetails = () => {
 
               <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-4">
                 {day.images.map((image, idx) => (
-                  <div key={idx} className="relative w-full h-80 rounded-lg overflow-hidden shadow-md">
-                    <img src={image.url} alt={image.name} className="w-full h-full object-cover" />
-                    <div className="absolute inset-0 flex items-end bg-gradient-to-t from-black/70 to-transparent">
-                      <h3 className="w-full p-4 text-white text-center">{image.name}</h3>
+                  <div key={idx} className="relative w-full h-80 rounded-lg overflow-hidden shadow-md group">
+                    <img 
+                      src={image.url} 
+                      alt={image.name} 
+                      className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105" 
+                    />
+                    <div className="absolute bottom-0 left-0 right-0 p-2 bg-gradient-to-t from-black/60 to-transparent opacity-0 opacity-100 transition-opacity duration-300">
+                      <h3 className="text-white text-sm font-medium text-center px-2 py-1 bg-black/60 rounded-full inline-block">
+                        {image.name}
+                      </h3>
                     </div>
                   </div>
                 ))}

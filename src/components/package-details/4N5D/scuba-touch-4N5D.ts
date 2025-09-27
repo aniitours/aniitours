@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Scuba Touch',
-    subtitle: '2N Portblair, 2N Havelock',
+    subtitle: '2N Sri Vijaya Purama Puram, 2N Swaraj Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/4N5D/scuba-touch/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-night.jpg', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,9 +24,9 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' },
-                { url: '/static/package-details/4N5D/family-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/elephantbeach.png', name: 'Elephant Island' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -38,8 +38,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/4N5D/scuba-touch/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/scuba.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -47,12 +47,12 @@ export const itineraryData = {
             title: 'Cruise to Shaheed Dweep, Coral Bridge & Return',
             activities: [
                 'Morning: Take a cruise trip to Shaheed Dweep and visit the Coral Bridge (comfortable footwear recommended).',
-                'Afternoon: Take a cruise trip back to Srivijayapuram.',
+                'Afternoon: Take a cruise trip back to Sri Vijaya Puram.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-touch/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: '/static/package-details/3N4D/classic-short-trip/coral-bridge.png', name: 'Coral Bridge' }
+                { url: '/static/package-details/shaheedweep.jpg', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' }
             ]
         },
         {

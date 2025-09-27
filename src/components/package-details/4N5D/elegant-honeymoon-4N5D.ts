@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Elegant Honeymoon',
-    subtitle: '1N Portblair, 2N Havelock, 1N Neil',
+    subtitle: '1N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweepeed Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cruise to Swaraj Dweep, Elephant Island Beach',
             activities: [
-                'Morning: Arrival at Srivijayapuram, take a cruise trip to Swaraj Dweep, and check in at the resort.',
+                'Morning: Arrival at Sri Vijaya Puram, take a cruise trip to Swaraj Dweep, and check in at the resort.',
                 'Afternoon: Visit Elephant Island Beach for kayaking.',
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/kayak.jpg', name: 'Elephant Island' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/scuba-basic/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/scuba.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -37,21 +37,21 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/family-special/bharatpur-beach.png', name: 'Bharatpur Beach' },
-                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/bharatpur.jpg', name: 'Bharatpur Beach' },
+                { url: '/static/package-details/laxmanpur-sunset.jpg', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 4,
-            title: 'Return to Srivijayapuram, City Tour',
+            title: 'Return to Sri Vijaya Puram, City Tour',
             activities: [
-                'Morning: Take a cruise trip to Srivijayapuram and check in at the hotel.',
+                'Morning: Take a cruise trip to Sri Vijaya Puram and check in at the hotel.',
                 'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/elegant-honeymoon/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Museum' }
+                { url: '/static/package-details/cruise.jpg', name: 'Cruise' },
+                { url: '/static/package-details/museum.avif', name: 'Museum' }
             ]
         },
         {

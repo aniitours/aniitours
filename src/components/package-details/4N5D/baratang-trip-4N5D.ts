@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Baratang Trip',
-    subtitle: '4N Portblair',
+    subtitle: '4N Sri Vijaya Puram',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/baratang-trip/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/4N5D/baratang-trip/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular Jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/baratang-trip/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/4N5D/baratang-trip/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' },
+                { url: '/static/package-details/rossisland.jpg', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/baratang-trip/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/4N5D/baratang-trip/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/baratang.png', name: 'Baratang Island' },
+                { url: '/static/package-details/limestone-cave.jpg', name: 'Limestone Caves' }
             ]
         },
         {
@@ -46,12 +46,12 @@ export const itineraryData = {
             title: 'Swaraj Dweep Excursion & Return',
             activities: [
                 'Morning: Take a cruise trip to Swaraj Dweep and relax and visit the world-famous Radhanagar Beach, perfect for swimming and known for its Blue Flag rating, blue waters, and white sandy shores.',
-                'Afternoon: Later, return to Srivijayapuram.',
+                'Afternoon: Later, return to Sri Vijaya Puram.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/4N5D/baratang-trip/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/4N5D/elegant-honeymoon/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swarajdweep' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {

@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Geographic Discovery',
-    subtitle: '4N Portblair, 1N Neil, 1N Havelock',
+    subtitle: '4N Sri Vijaya Puram, 1N Shaheed Dweep, 1N Swaraj Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/corbyns-cove-beach.png', name: 'Carbyn\'s Cove Beach' },
-                { url: '/static/package-details/6N7D/geographic-discovery/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/ross-island.png', name: 'Ross Island' },
-                { url: '/static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' }
+                { url: '/static/package-details/rossisland.jpg', name: 'Ross Island' },
+                { url: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/6N7D/geographic-discovery/limestone-caves.png', name: 'Limestone Caves' }
+                { url: '/static/package-details/baratang.png', name: 'Baratang Island' },
+                { url: '/static/package-details/limestone-cave.jpg', name: 'Limestone Caves' }
             ]
         },
         {
@@ -50,9 +50,9 @@ export const itineraryData = {
                 'Evening: Enjoy a beautiful sunset at Laxmanpur Beach. Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: '/static/package-details/6N7D/geographic-discovery/coral-bridge.png', name: 'Coral Bridge' },
-                { url: '/static/package-details/6N7D/geographic-discovery/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/shaheedweep.jpg', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' },
+                { url: '/static/package-details/laxmanpur-sunset.jpg', name: 'Laxmanpur Beach' }
             ]
         },
         {
@@ -64,22 +64,22 @@ export const itineraryData = {
                 'Evening: Enjoy a sunset visit to Kaalapathar Beach. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/6N7D/geographic-discovery/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/6N7D/geographic-discovery/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' },
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' }
             ]
         },
         {
             day: 6,
-            title: 'Return to Srivijayapuram & North Bay Island',
+            title: 'Return to Sri Vijaya Puram & North Bay Island',
             activities: [
                 'Morning: After checkout, return to the capital from the jetty.',
                 'Afternoon: Head to Coral Island (North Bay), a popular destination for watersports like snorkeling, scuba diving, parasailing, and boat rides. Visit the lighthouse for a picturesque view of the surroundings.',
                 'Evening: Take some rest and then enjoy shopping in the city.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/geographic-discovery/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: '/static/package-details/6N7D/geographic-discovery/north-bay-island.png', name: 'North Bay Island' }
+                { url: '/static/package-details/srivijayapuram.jpeg', name: 'Sri Vijaya Puram' },
+                { url: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' }
             ]
         },
         {
@@ -91,7 +91,7 @@ export const itineraryData = {
                 'Evening: Airport drop with beautiful memories.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/museum.avif', name: 'Anthropological Museum' }
             ]
         }
     ]

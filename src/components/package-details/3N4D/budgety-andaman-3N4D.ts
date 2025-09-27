@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Budgety Andaman',
-    subtitle: '1N Portblair 1N Havelock 1N Ross',
+    subtitle: '3N Sri Vijaya Puram',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light and Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the Cellular Jail, followed by a trip to Carbyns Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/corbyns-cove-beach.png', name: 'Corbyn’s Cove Beach' },
-                { url: '/static/package-details/3N4D/budgety-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Corbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-night.jpg', name: 'Cellular Jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/swarajdweep.png', name: 'Swarajdweep' },
-                { url: '/static/package-details/3N4D/adventure-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swarajdweep' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/3N4D/budgety-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/3N4D/budgety-andaman/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' },
+                { url: '/static/package-details/rossisland.jpg', name: 'Ross Island' }
             ]
         },
         {

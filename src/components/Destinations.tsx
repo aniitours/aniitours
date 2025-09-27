@@ -7,8 +7,8 @@ const destination3 = './static/destinations/Neil.png';
 
 const destinations = [
   { name: "Port Blair", image: destination1 },
-  { name: "Havelock Island", image: destination2 },
-  { name: "Neil Island", image: destination3 }
+  { name: "Swaraj Dweep Island", image: destination2 },
+  { name: "Shaheed Dweep Island", image: destination3 }
 ];
 
 export function Destinations() {

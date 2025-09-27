@@ -1,6 +1,6 @@
 import "@fontsource/caudex";
 import "@fontsource/poppins";
-const heroImage1 = './static/hero/hero-image-1.png';
+const heroImage1 = './static/hero/hero-image.jpg';
 const heroImage2 = './static/hero/hero-image-2.png';
 const heroImage3 = './static/hero/hero-image-3.png';
 

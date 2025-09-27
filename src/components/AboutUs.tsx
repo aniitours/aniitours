@@ -1,12 +1,12 @@
 
 const coupleStroll = './static/about-us/couples-stroll.png';
-const aboutUs1 = './static/about-us/about-us-1.png';
+const aboutUs1 = './static/about-us/andaman-aerial.jpg';
 const aboutUs2 = './static/about-us/about-us-2.png';
 const aboutUs3 = './static/about-us/about-us-3.png';
 const service = './static/about-us/service.png';
 const mission = './static/about-us/mission.png';
 const vision = './static/about-us/vision.png';
-const couple = './static/about-us/couple.png';
+const couple = './static/about-us/andaman-topview.jpg';
 import { WhyAmram } from './WhyAmram';
 
 
@@ -33,7 +33,7 @@ const AboutUs = () => {
               <h1 className="text-3xl font-bold mb-6 font-caudex">Welcome to ANII Tours</h1>
               <p className="text-gray-600 mb-6 font-poppins">
                 Creating Unforgettable Travel Experiences Combined with Nature
-                At ANII Tours, we are dedicated to crafting unique and memorable journeys that immerse you in the natural beauty and cultural richness of the Andaman and Nicobar Islands. Our mission is to provide adventures that are both thrilling and enriching, ensuring you experience the best of what this stunning region has to offer.
+                At ANII (Andaman Nicobar India International) Tours, we are dedicated to crafting unique and memorable journeys that immerse you in the natural beauty and cultural richness of the Andaman and Nicobar Islands. Our mission is to provide adventures that are both thrilling and enriching, ensuring you experience the best of what this stunning region has to offer.
               </p>
             </div>
             {/* 2 Images */}

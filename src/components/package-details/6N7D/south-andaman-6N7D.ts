@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'South Andaman',
-    subtitle: '4N Portblair, 2N Havelock',
+    subtitle: '4N Sri Vijaya Puram, 2N Swaraj Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/6N7D/south-andaman/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,8 +24,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/north-bay-island.png', name: 'North Bay Island' },
-                { url: '/static/package-details/6N7D/south-andaman/ross-island.png', name: 'Ross Island' }
+                { url: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' },
+                { url: '/static/package-details/rossisland.jpg', name: 'Ross Island' }
             ]
         },
         {
@@ -37,8 +37,8 @@ export const itineraryData = {
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/baratang-island.png', name: 'Baratang Island' },
-                { url: '/static/package-details/6N7D/south-andaman/limestone-caves.png', name: 'Limestone caves' }
+                { url: '/static/package-details/baratang.png', name: 'Baratang Island' },
+                { url: '/static/package-details/limestone-cave.jpg', name: 'Limestone caves' }
             ]
         },
         {
@@ -50,9 +50,9 @@ export const itineraryData = {
                 'Evening: Visit Kaalapathar Beach for a beautiful sunset. Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/elephant-beach.png', name: 'Elephant Beach' },
-                { url: '/static/package-details/6N7D/south-andaman/kaalapathar-beach.png', name: 'Kaalapathar Beach' },
-                { url: '/static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Swaraj Dweep' }
+                { url: '/static/package-details/elephantbeach.png', name: 'Elephant Beach' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' },
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' }
             ]
         },
         {
@@ -64,21 +64,21 @@ export const itineraryData = {
                 'Evening: Relax at the beach and enjoy the sunset. Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/6N7D/south-andaman/radhanagar-beach.png', name: 'Radhanagar Beach' }
+                { url: '/static/package-details/scuba.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' }
             ]
         },
         {
             day: 6,
-            title: 'Return to Srivijayapuram & City Tour',
+            title: 'Return to Sri Vijaya Puram & City Tour',
             activities: [
-                'Morning: Take a cruise back to Srivijayapuram and check in at the hotel.',
+                'Morning: Take a cruise back to Sri Vijaya Puram and check in at the hotel.',
                 'Afternoon: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum) and enjoying some shopping.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/srivijayapuram.png', name: 'Srivijayapuram' },
-                { url: '/static/package-details/3N4D/classic-short-trip/museum.png', name: 'Anthropological Museum' }
+                { url: '/static/package-details/srivijayapuram.jpeg', name: 'Sri Vijaya Puram' },
+                { url: '/static/package-details/museum.avif', name: 'Anthropological Museum' }
             ]
         },
         {

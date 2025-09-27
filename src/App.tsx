@@ -40,7 +40,7 @@ function App() {
                 <SpecialPackages />
                 <Activities />
                 <WhyAmram />
-                <Testimonial />
+                {/* <Testimonial /> */}
                 <KeepPlanning />
               </main>
             </>

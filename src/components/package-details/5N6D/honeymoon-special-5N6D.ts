@@ -1,18 +1,18 @@
 export const itineraryData = {
     title: 'Honeymoon Special',
-    subtitle: '2N Portblair, 2N Havelock, 1N Neil',
+    subtitle: '2N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweepeed Dweep',
     days: [
         {
             day: 1,
             title: 'Arrival, Cellular Jail, Carbyns Cove Beach, Light & Sound Show',
             activities: [
-                'Morning: Arrival at Srivijayapuram and check-in at the hotel.',
+                'Morning: Arrival at Sri Vijaya Puram and check-in at the hotel.',
                 'Afternoon: Visit the historic Cellular Jail, followed by a trip to Carbyn\'s Cove Beach.',
                 'Evening: Attend the Light and Sound Show at the Cellular Jail to learn about the history of the freedom struggle, followed by a night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/corbyns-cove-beach.png', name: 'Carbyn’s Cove Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-special/cellular-jail.png', name: 'Cellular jail' }
+                { url: '/static/package-details/corbyns-beach.jpg', name: 'Carbyn\'s Cove Beach' },
+                { url: '/static/package-details/cellular-jail-front.png', name: 'Cellular jail' }
             ]
         },
         {
@@ -24,10 +24,10 @@ export const itineraryData = {
                 'Evening: Night stay at Swarajdweep.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Swaraj Dweep' },
-                { url: '/static/package-details/3N4D/mini-andaman/elephant-island.png', name: 'Elephant Island' },
-                { url: '/static/package-details/6N7D/south-andaman/seawalk.jpg', name: 'Seawalk' },
-                { url: '/static/package-details/5N6D/honeymoon-special/kaalapathar-beach.png', name: 'Kaalapathar Beach' }
+                { url: '/static/package-details/swarajdweep.webp', name: 'Swaraj Dweep' },
+                { url: '/static/package-details/elephantbeach.png', name: 'Elephant Island' },
+                { url: '/static/package-details/seawalk.avif', name: 'Seawalk' },
+                { url: '/static/package-details/kaalapathar-beach.jpeg', name: 'Kaalapathar Beach' }
             ]
         },
         {
@@ -39,9 +39,9 @@ export const itineraryData = {
                 'Evening: End the day with a romantic candlelight dinner and a night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/south-andaman/scuba-diving.jpg', name: 'Scuba Diving' },
-                { url: '/static/package-details/5N6D/honeymoon-special/radhanagar-beach.png', name: 'Radhanagar Beach' },
-                { url: '/static/package-details/5N6D/honeymoon-special/candle-night-dinner.png', name: 'Candle night dinner' }
+                { url: '/static/package-details/scuba.jpg', name: 'Scuba Diving' },
+                { url: '/static/package-details/radhanagar-beach.jpg', name: 'Radhanagar Beach' },
+                { url: '/static/package-details/candle-light-dinner.webp', name: 'Candle night dinner' }
             ]
         },
         {
@@ -53,22 +53,22 @@ export const itineraryData = {
                 'Evening: Night stay at the resort.'
             ],
             images: [
-                { url: '/static/package-details/5N6D/honeymoon-special/swarajdweep.png', name: 'Shaheed Dweep' },
-                { url: '/static/package-details/5N6D/honeymoon-special/coral-bridge.png', name: 'Coral Bridge' },
-                { url: '/static/package-details/6N7D/explore-andaman/laxmanpur-beach.png', name: 'Laxmanpur Beach' }
+                { url: '/static/package-details/shaheedweep.jpg', name: 'Shaheed Dweep' },
+                { url: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' },
+                { url: '/static/package-details/laxmanpur-sunset.jpg', name: 'Laxmanpur Beach' }
             ]
         },
         {
             day: 5,
-            title: 'Watersports, Return to Srivijayapuram & Shopping',
+            title: 'Watersports, Return to Sri Vijaya Puram & Shopping',
             activities: [
                 'Morning: Enjoy watersports activities.',
-                'Afternoon: Return to Srivijayapuram for some shopping.',
+                'Afternoon: Return to Sri Vijaya Puram for some shopping.',
                 'Evening: Night stay at the hotel.'
             ],
             images: [
-                { url: '/static/package-details/6N7D/explore-andaman/watersports.jpg', name: 'Watersports' },
-                { url: '/static/package-details/5N6D/honeymoon-special/cruise.png', name: 'Cruise' }
+                { url: '/static/package-details/watersports.jpg', name: 'Watersports' },
+                { url: '/static/package-details/cruise.jpg', name: 'Cruise' }
             ]
         },
         {
