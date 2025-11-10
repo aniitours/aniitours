@@ -4,7 +4,7 @@
   "durationCode": "6N7D",
   "subtitle": "4N Sri Vijaya Puram, 2N Swaraj Dweep",
   "order": 2,
-  "cardImage": "./static/tour-packages/6N7D/6N7D-south-andaman.png",
+  "cardImage": "./static/tour-packages/5N6D/5N6D-ultimate-andaman.png",
   "prices": {
     "premium": "84,900",
     "deluxe": "75,300",
@@ -92,7 +92,7 @@
         ],
         "images": [
           { "url": "/static/package-details/srivijayapuram.jpeg", "name": "Sri Vijaya Puram" },
-          { "url": "/static/package-details/museum.avif", "name": "Anthropological Museum" }
+          { "url": "/static/package-details/samudrika-museum.jpg", "name": "Anthropological Museum" }
         ]
       },
       {

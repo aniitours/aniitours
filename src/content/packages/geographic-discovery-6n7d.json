@@ -85,28 +85,24 @@
       },
       {
         "day": 6,
-        "title": "Return to Sri Vijaya Puram & North Bay Island",
+        "title": "Return to Sri Vijaya Puram, City Tour & Shopping",
         "activities": [
-          "Morning: After checkout, return to the capital from the jetty.",
-          "Afternoon: Head to Coral Island (North Bay), a popular destination for watersports like snorkeling, scuba diving, parasailing, and boat rides. Visit the lighthouse for a picturesque view of the surroundings.",
-          "Evening: Take some rest and then enjoy shopping in the city."
+          "Morning: Cruise back to Sri Vijaya Puram and check in at the hotel.",
+          "Afternoon: Head out for a mini city tour covering key museums and attractions of the capital.",
+          "Evening: Spend time shopping before settling in for the night at the hotel."
         ],
         "images": [
           { "url": "/static/package-details/srivijayapuram.jpeg", "name": "Sri Vijaya Puram" },
-          { "url": "/static/package-details/northbayisland.jpg", "name": "North Bay Island" }
+          { "url": "/static/package-details/samudrika-museum.jpg", "name": "Samudrika Museum" }
         ]
       },
       {
         "day": 7,
-        "title": "City Tour & Departure",
+        "title": "Departure",
         "activities": [
-          "Morning: Embark on a mini city tour, visiting museums (Anthropological Museum, Samudrika Naval Museum, and Chatham Museum).",
-          "Afternoon: Enjoy some last-minute shopping.",
-          "Evening: Airport drop with beautiful memories."
+          "Morning: Airport drop with beautiful memories."
         ],
-        "images": [
-          { "url": "/static/package-details/museum.avif", "name": "Anthropological Museum" }
-        ]
+        "images": []
       }
     ]
   }

@@ -78,8 +78,7 @@
           "Evening: Night stay at the hotel."
         ],
         "images": [
-          { "url": "/static/package-details/watersports.jpg", "name": "Water Sports" },
-          { "url": "/static/package-details/museum.avif", "name": "Museum" }
+          { "url": "/static/package-details/samudrika-museum.jpg", "name": "Museum" }
         ]
       },
       {

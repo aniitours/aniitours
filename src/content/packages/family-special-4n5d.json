@@ -52,7 +52,7 @@
           "Evening: Night stay at the hotel."
         ],
         "images": [
-          { "url": "/static/package-details/swarajdweep.webp", "name": "Swaraj Dweep" },
+          { "url": "/static/package-details/shaheedweep.jpg", "name": "Shaheed Dweep" },
           { "url": "/static/package-details/coral-bridge.jpg", "name": "Coral Bridge" }
         ]
       },

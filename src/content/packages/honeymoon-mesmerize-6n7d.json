@@ -65,7 +65,6 @@
           "Evening: Romantic dinner by the beach (on your own). Night stay at the resort."
         ],
         "images": [
-          { "url": "/static/package-details/watersports.jpg", "name": "Watesports" }
         ]
       },
       {
@@ -77,7 +76,6 @@
           "Evening: Enjoy a romantic sunset at Kaalapathar Beach. Night stay at Swarajdweep."
         ],
         "images": [
-          { "url": "/static/package-details/elephantbeach.png", "name": "Elephant Beach" },
           { "url": "/static/package-details/radhanagar-beach.jpg", "name": "Radhanagar Beach" },
           { "url": "/static/package-details/kaalapathar-beach.jpeg", "name": "Kaalapathar Beach" }
         ]
@@ -92,7 +90,7 @@
         ],
         "images": [
           { "url": "/static/package-details/srivijayapuram.jpeg", "name": "Sri Vijaya Puram" },
-          { "url": "/static/package-details/museum.avif", "name": "Anthropological Museum" }
+          { "url": "/static/package-details/samudrika-museum.jpg", "name": "Anthropological Museum" }
         ]
       },
       {

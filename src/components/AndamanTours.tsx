@@ -58,7 +58,6 @@ const sightseeingData = {
     title: 'Museums in Sri Vijaya Puram',
     images: [
       { src: '/static/package-details/cellular-jail-front.png', name: 'Cellular Jail' },
-      { src: '/static/package-details/museum.avif', name: 'Anthropological Museum' },
       { src: '/static/package-details/chatham-museum.jpg', name: 'Chatham Museum' },
       { src: '/static/package-details/samudrika-museum.jpg', name: 'Samudrika Naval Museum' },
     ],
