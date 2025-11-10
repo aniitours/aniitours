@@ -1,0 +1,22 @@
+{
+  "title": "Why choose Andaman Nicobar India International Tours",
+  "description": "Curated experiences tailored for every type of traveller, with the flexibility and quality to match your expectations.",
+  "highlights": [
+    {
+      "title": "Flexible tour plans",
+      "description": "You're in control, with free cancellation and payment options to satisfy any plan or budget.",
+      "icon": "./static/about-us/ticket.png"
+    },
+    {
+      "title": "Memorable experiences",
+      "description": "Browse and book tours and activities so incredible, you'll want to tell your friends.",
+      "icon": "./static/about-us/diamond.png"
+    },
+    {
+      "title": "Simple and customised",
+      "description": "Expertly curated tours with high-quality standards.",
+      "icon": "./static/about-us/hot-air-balloon.png"
+    }
+  ]
+}
+

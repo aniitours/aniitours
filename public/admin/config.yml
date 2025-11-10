@@ -1,0 +1,128 @@
+backend:
+  name: git-gateway
+  branch: netlify
+
+media_folder: "public/uploads"
+public_folder: "/uploads"
+
+collections:
+  - name: siteCopy
+    label: Site Copy
+    delete: false
+    files:
+      - name: whyAmram
+        label: Why Amram Section
+        file: src/content/whyAmram.json
+        fields:
+          - name: title
+            label: Title
+            widget: string
+          - name: description
+            label: Description
+            widget: text
+            required: false
+          - name: highlights
+            label: Highlights
+            widget: list
+            label_singular: Highlight
+            fields:
+              - name: title
+                label: Highlight Title
+                widget: string
+              - name: description
+                label: Highlight Description
+                widget: text
+              - name: icon
+                label: Icon
+                widget: image
+                required: false
+
+  - name: packages
+    label: Packages
+    folder: src/content/packages
+    create: true
+    slug: "{{fields.slug}}"
+    extension: json
+    format: json
+    identifier_field: title
+    sortable_fields: [title, durationCode]
+    fields:
+      - name: slug
+        label: Slug
+        widget: string
+        pattern:
+          - "^[a-z0-9\\-]+$"
+          - "Use lowercase letters, numbers, and hyphens only."
+      - name: title
+        label: Package Title
+        widget: string
+      - name: durationCode
+        label: Duration Code
+        widget: select
+        options:
+          - { label: "3 Nights / 4 Days", value: "3N4D" }
+          - { label: "4 Nights / 5 Days", value: "4N5D" }
+          - { label: "5 Nights / 6 Days", value: "5N6D" }
+          - { label: "6 Nights / 7 Days", value: "6N7D" }
+      - name: subtitle
+        label: Subtitle
+        widget: string
+      - name: order
+        label: Display Order
+        widget: number
+        required: false
+      - name: cardImage
+        label: Card Image
+        widget: image
+        required: false
+        allow_multiple: false
+      - name: prices
+        label: Prices
+        widget: object
+        fields:
+          - { name: premium, label: Premium, widget: string, required: false }
+          - { name: deluxe, label: Deluxe, widget: string, required: false }
+          - { name: standard, label: Standard, widget: string, required: false }
+          - { name: economy, label: Economy, widget: string, required: false }
+          - { name: budget, label: Budget, widget: string, required: false }
+      - name: itinerary
+        label: Itinerary
+        widget: object
+        collapsed: false
+        fields:
+          - name: overviewTitle
+            label: Overview Title
+            widget: string
+          - name: overviewSubtitle
+            label: Overview Subtitle
+            widget: string
+          - name: days
+            label: Days
+            widget: list
+            fields:
+              - name: day
+                label: Day Number
+                widget: number
+              - name: title
+                label: Title
+                widget: string
+              - name: activities
+                label: Activities
+                widget: list
+                field:
+                  name: activity
+                  label: Activity
+                  widget: text
+              - name: images
+                label: Images
+                widget: list
+                fields:
+                  - name: url
+                    label: Image
+                    widget: image
+                    required: false
+                  - name: name
+                    label: Alt Text / Caption
+                    widget: string
+                    required: false
+

@@ -1,22 +1,8 @@
 import { useParams, useNavigate } from 'react-router-dom';
-import { packageStructure, durationDetails, categories } from '../data/packageStructure';
+import { categories } from '../data/packageStructure';
 import { ArrowLeft, MapPin } from 'lucide-react';
-
-import { useEffect, useState } from 'react';
-
-interface Day {
-  day: number;
-  title: string;
-  activities: string[];
-  images: { url: string; name: string }[];
-}
-
-interface ItineraryData {
-  title: string;
-  subtitle: string;
-  description?: string;
-  days: Day[];
-}
+import { packagesBySlug } from '../content';
+import type { PackageDay } from '../content/types';
 
 const INCLUSIVE_CONTENT = [
   'The package offers a per-couple rate that includes comfortable accommodation with complimentary breakfast. An AC vehicle is provided for sightseeing as per the itinerary, along with cruise tickets and museum entry fees, ensuring a seamless and enjoyable experience.',
@@ -30,93 +16,36 @@ const PackageDetails = () => {
   const { id } = useParams<{ id: string }>();
   const navigate = useNavigate();
 
-  const [packageData, setPackageData] = useState<ItineraryData | null>(null);
-  const [packageInfo, setPackageInfo] = useState<{ title: string; images: string; prices: { [key: string]: string } } | null>(null);
-  const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<string | null>(null);
-
-  useEffect(() => {
-    const loadPackageDetails = async () => {
-      if (!id) {
-        setError('No package ID provided.');
-        setLoading(false);
-        return;
-      }
-
-      // 1. Find duration and package info from packageStructure
-      const duration = Object.keys(durationDetails).find(d => id.includes(d));
-      if (!duration) {
-        setError('Invalid package ID: Duration not found.');
-        setLoading(false);
-        return;
-      }
-
-      const packagesInDuration = packageStructure[duration as keyof typeof packageStructure];
-      const foundPackageInfo = packagesInDuration.find(pkg => {
-        const baseId = `${pkg.title.toLowerCase().replace(/\s+/g, '-')}-${duration}`;
-        return id.startsWith(baseId);
-      });
-
-      if (!foundPackageInfo) {
-        setError('Package not found.');
-        setLoading(false);
-        return;
-      }
-      setPackageInfo(foundPackageInfo);
-
-      // 2. Construct filename for itinerary data (strip category)
-      let fileName = id;
-      for (const category of categories) {
-        if (fileName.endsWith(`-${category.code}`)) {
-          fileName = fileName.slice(0, -(`-${category.code}`.length));
-          break;
-        }
-      }
-
-      // 3. Dynamically import itinerary data using Vite's eager glob import
-      try {
-        const modules: Record<string, { itineraryData: ItineraryData }> = import.meta.glob('./package-details/*/*.ts', { eager: true });
-        const modulePath = `./package-details/${duration}/${fileName}.ts`;
-
-        if (modules[modulePath]) {
-          const module = modules[modulePath];
-          setPackageData(module.itineraryData);
-        } else {
-          setError(`Itinerary file not found for this package.`);
-        }
-      } catch (err) {
-        console.error("Failed to load package data:", err);
-        setError('An error occurred while loading package details.');
-      } finally {
-        setLoading(false);
-      }
-    };
-
-    loadPackageDetails();
-  }, [id]);
-
-  if (loading) {
-    return <div>Loading...</div>;
+  if (!id) {
+    return <div>No package ID provided.</div>;
   }
 
-  if (error) {
-    return <div>{error}</div>;
+  const baseSlug = categories.reduce((currentId, category) => {
+    if (currentId.endsWith(`-${category.code}`)) {
+      return currentId.slice(0, -(`-${category.code}`.length));
+    }
+    return currentId;
+  }, id.toLowerCase());
+
+  const packageContent = packagesBySlug[baseSlug];
+
+  if (!packageContent) {
+    return <div>Package not found.</div>;
   }
 
-  if (!packageData || !packageInfo) {
-    return <div>Package not found</div>;
-  }
+  const itinerary = packageContent.itinerary;
+  const prices = packageContent.prices;
 
   return (
     <section className="py-16 px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
       <div className="container mx-auto px-4">
         <h1 className="font-caudex text-3xl font-bold mb-2 flex items-center gap-4 mt-16">
           <ArrowLeft className="cursor-pointer" onClick={() => navigate('/tour-packages')} />
-          {packageData.title}
+          {itinerary.overviewTitle}
         </h1>
         <h2 className="text-xl text-gray-600 mb-6 flex items-center gap-2">
           <MapPin className="w-5 h-5 text-gray-500" />
-          {packageData.subtitle}
+          {itinerary.overviewSubtitle}
         </h2>
 
         {/* Prices Section */}
@@ -128,7 +57,7 @@ const PackageDetails = () => {
                 <div key={category.code} className="flex-shrink-0 w-40 sm:w-auto mx-2 sm:mx-0 border rounded-lg p-4 text-center shadow-md">
                   <h4 className="font-semibold text-base sm:text-lg">{category.name}</h4>
                   <p className="text-xl sm:text-2xl font-bold text-blue-600 mt-1 sm:mt-2">
-                    ₹{packageInfo.prices[category.code]}
+                    ₹{prices[category.code] ?? 'N/A'}
                   </p>
                   <p className="text-xs sm:text-sm text-gray-500">per couple</p>
                 </div>
@@ -141,7 +70,7 @@ const PackageDetails = () => {
         <h3 className="font-poppins font-bold text-2xl leading-none mb-6">Itinerary</h3>
 
         <div className="space-y-8 ml-4">
-          {packageData.days.map((day: Day, index: number) => (
+          {itinerary.days.map((day: PackageDay, index: number) => (
             <div key={index} className="relative pl-8 custom-dashed-border mb-8">
               <div className="absolute -left-4 bg-white">
                 <div className="w-6 h-6 rounded bg-[#D5EBFF] flex items-center justify-center text-[#1E1D4C] text-sm font-bold p-4">
@@ -163,8 +92,8 @@ const PackageDetails = () => {
                 {day.images.map((image, idx) => (
                   <div key={idx} className="relative w-full h-80 rounded-lg overflow-hidden shadow-md group">
                     <img 
-                      src={image.url} 
-                      alt={image.name} 
+                      src={image.url ?? ''} 
+                      alt={image.name ?? `Day ${day.day}`} 
                       className="w-full h-full object-cover transition-all duration-300 group-hover:scale-105" 
                     />
                     <div className="absolute bottom-0 left-0 right-0 p-2 bg-gradient-to-t from-black/60 to-transparent opacity-0 opacity-100 transition-opacity duration-300">
