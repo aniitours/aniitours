@@ -39,7 +39,7 @@ const Terms = () => {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">CONTACT US</h2>
       <p>
-        In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at: hisgracetourstravel@gmail.com
+        In order to resolve a complaint regarding the Site or to receive further information regarding use of the Site, please contact us at: hisgracetourstravels@gmail.com
       </p>
     </div>
   );

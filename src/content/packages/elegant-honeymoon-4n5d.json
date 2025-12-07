@@ -2,7 +2,7 @@
   "slug": "elegant-honeymoon-4n5d",
   "title": "Elegant Honeymoon",
   "durationCode": "4N5D",
-  "subtitle": "1N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweepeed Dweepeed Dweep",
+  "subtitle": "1N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweep",
   "order": 1,
   "cardImage": "./static/tour-packages/4N5D/4N5D-elegant-honeymoon.png",
   "prices": {
@@ -14,7 +14,7 @@
   },
   "itinerary": {
     "overviewTitle": "Elegant Honeymoon",
-    "overviewSubtitle": "1N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweepeed Dweep",
+    "overviewSubtitle": "1N Sri Vijaya Puram, 2N Swaraj Dweep, 1N Shaheed Dweep",
     "days": [
       {
         "day": 1,

@@ -40,7 +40,7 @@ const Privacy = () => {
 
       <h2 className="text-2xl font-semibold mt-6 mb-2">HOW CAN YOU CONTACT US ABOUT THIS NOTICE?</h2>
       <p>
-        If you have questions or comments about this notice, you may email us at hisgracetourstravel@gmail.com.
+        If you have questions or comments about this notice, you may email us at hisgracetourstravels@gmail.com.
       </p>
     </div>
   );

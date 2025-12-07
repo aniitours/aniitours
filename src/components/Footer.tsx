@@ -46,7 +46,7 @@ export function Footer() {
           
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
-            <p className="text-gray-400">Mail: hisgracetourstravel@gmail.com</p>
+            <p className="text-gray-400">Mail: hisgracetourstravels@gmail.com</p>
             <p className="text-gray-400">Mail: shiju@aniitours.com</p>
             <p className="text-gray-400 mt-4">Phone: +91 99320 81208</p>
             <p className="text-gray-400 mb-4">Phone: +91 94742 69697</p>

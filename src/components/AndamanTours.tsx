@@ -30,16 +30,15 @@ const sightseeingData = {
   {
     title: 'Ross Island (Netaji Subhash Chandra Bose Dweep)',
     images: [
-      { src: '/static/package-details/northbayisland.jpg', name: 'North Bay Island' },
-      { src: '/static/package-details/rossisland.jpg', name: 'Ross Island' },
+      { src: '/static/package-details/deers.jpg', name: 'Ross Island' },
     ],
     description: "Once the British administrative headquarters, now in ruins.",
-    details: "Attractions: Old bungalows, churches, and bakeries enveloped in nature.",
+    details: "Attractions: Deer park, Old bungalows, churches, and bakeries enveloped in nature.",
   },
   {
     title: 'North Bay Coral Island',
     images: [
-      { src: '/static/package-details/coral-bridge.jpg', name: 'Coral Bridge' },
+      { src: '/static/package-details/north-bay-sightseeing.jpg', name: 'North Bay Island' },
     ],
     description: "Ideal for water activities and swimming.",
     details: "Highlights: Lighthouse featured on the ₹20 Indian currency note.\nNearby: Mount Harriet (Mount Manipur), renamed in 2021 to honor Anglo-Manipur war heroes.",
